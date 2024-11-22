@@ -1,0 +1,46 @@
+"1975-09-19":
+  - name: "🐣 Born at Victory Memorial Hospital in Brooklyn, New York"
+    desc: "Dad came to the hospital in a suit and tie to meet me for the first time."
+    link: "https://en.wikipedia.org/wiki/Victory_Memorial_Hospital"
+    category: "self"
+    tags: [""]
+    size: "XL"
+
+"2001-06-02":
+  - name: "💍 Married T"
+    desc: "Wore matching white dresses and Doc Martens. Whole family on both sides came. Not legally recognized. Mom walked me down the aisle."
+    link: ""
+    category: "self"
+    tags: ["marriage", "family"]
+    size: "XL"
+
+"2001-09-11":
+  - name: "💔 September 11th"
+    desc: "Rest in peace, Charles."
+    link: ""
+    category: "self"
+    tags: ["nyc", "friends"]
+    size: "L"
+
+"2005-01-30":
+  - name: "👩‍💻 Launched Lifehacker"
+    category: "work"
+    tags: ["lifehacker"]
+
+"2012-09-18":
+  - name: "💖 Etta born"
+    desc: "At last."
+    category: "family"
+    tags: ["family"]
+    size: "XL"
+
+"2059-09-19":
+  - name: "☠️ Life expectancy expiration date"
+    category: "self"
+    tags: []
+
+"2075-09-19":
+  - name: "🥰 My goal is to live 100 healthy years, so I can hug Etta the day after her 63rd birthday"
+    category: "goal"
+    link: ""
+    tags: ["health"]
