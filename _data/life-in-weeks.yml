@@ -1,46 +1,191 @@
 "1975-09-19":
-  - name: "🐣 Born at Victory Memorial Hospital in Brooklyn, New York"
-    desc: "Dad came to the hospital in a suit and tie to meet me for the first time."
-    link: "https://en.wikipedia.org/wiki/Victory_Memorial_Hospital"
-    category: "self"
-    tags: [""]
-    size: "XL"
+  - name: "🐣 Hello world: I was born this day"
+    living: "Brooklyn"
+    doing: "toddler"
+
+"1980-09-01":
+  - name: "🖍️ Started kindergarten"
+    living: "Brooklyn"
+    doing: "student"
+    association: "Tiny Tot Schoolhouse"
+
+"1981-09-01":
+  - name: "📓 Started elementary school"
+    living: "Brooklyn"
+    doing: "student"
+    association: "St. Ephrem School"
+
+"1989-09-01":
+  - name: "📚 Started high school"
+    living: "Brooklyn"
+    doing: "student"
+    association: "Bishop Kearney High School"
+
+"1993-09-02":
+  - name: "🏫 Left home for college"
+    living: "Poughkeepsie"
+    doing: "student"
+    association: "Marist College"
+
+"1995-10-03":
+  - name: "💔 Dad died"
+
+"1997-03-21":
+  - name: "💝 First date with T"
+
+"1997-07-01":
+  - name: "🛗 Moved home, started at O. Thompson"
+    living: "Brooklyn"
+    doing: "working"
+    association: "O. Thompson"
+
+"1997-09-01":
+  - name: "📚 Started grad school"
+    living: "Brooklyn"
+    doing: "student"
+    association: "Brooklyn College"
+
+"1999-06-15":
+  - name: "🎓 Graduated with masters degree"
+    living: "Brooklyn"
+    doing: "working"
+    association: "O. Thompson"
+
+"2000-01-01":
+  - name: "🏡 Moved in with my sister"
+
+"2000-03-01":
+  - name: "⚡️ Started at Bolt"
+    living: "Brooklyn"
+    doing: "working"
+    association: "Bolt"
+
+"2001-01-01":
+  - name: "🏡 Moved in with T (exact date TK)"
 
 "2001-06-02":
   - name: "💍 Married T"
-    desc: "Wore matching white dresses and Doc Martens. Whole family on both sides came. Not legally recognized. Mom walked me down the aisle."
-    link: ""
-    category: "self"
-    tags: ["marriage", "family"]
-    size: "XL"
 
 "2001-09-11":
-  - name: "💔 September 11th"
-    desc: "Rest in peace, Charles."
-    link: ""
-    category: "self"
-    tags: ["nyc", "friends"]
-    size: "L"
+  - name: "💔 9/11"
+
+"2003-05-01":
+  - name: "🐝 Started at Kinja"
+    living: "Brooklyn"
+    doing: "working"
+    association: "Kinja"
 
 "2005-01-30":
-  - name: "👩‍💻 Launched Lifehacker"
-    category: "work"
-    tags: ["lifehacker"]
+  - name: "👩‍✈️ Launched Lifehacker"
+    living: "Brooklyn"
+    doing: "working"
+    association: "Lifehacker"
+
+"2005-09-01":
+  - name: "☀️ Moved to San Diego"
+    living: "San Diego"
+    doing: "working"
+    association: "Lifehacker"
+
+"2009-01-01":
+  - name: "👩‍💻 Started freelancing"
+    doing: "working"
+    association: "freelancing"
+
+"2009-09-01":
+  - name: "📈 Started ThinkUp"
+    living: "San Diego"
+    doing: "working"
+    association: "ThinkUp"
+
+"2010-10-01":
+  - name: "✈️ Visited China TK"
+
+"2011-10-01":
+  - name: "✈️ Visited Thailand TK"
+
+"2007-10-01":
+  - name: "✈️ Visited Sicily TK"
+
+"2008-10-01":
+  - name: "✈️ Visited London TK"
 
 "2012-09-18":
-  - name: "💖 Etta born"
-    desc: "At last."
-    category: "family"
-    tags: ["family"]
-    size: "XL"
+  - name: "🐣 E born"
+
+"2013-09-01":
+  - name: "📈 Shut down ThinkUp (exact date TK)"
+    living: "San Diego"
+    doing: "working"
+    association: "freelancing"
+
+"2014-12-15":
+  - name: "🗽 Moved back to Brooklyn (exact date TK)"
+    living: "Brooklyn"
+
+"2016-04-16":
+  - name: "🏢 Started at Postlight"
+    living: "Brooklyn"
+    doing: "working"
+    association: "Postlight"
+
+"2020-03-15":
+  - name: "🦠 Covid-19 Pandemic shut down U.S."
+
+"2020-03-30":
+  - name: "🦆 Relocated to North Carolina"
+    living: "North Carolina"
+
+"2020-09-30":
+  - name: "🗽 Went back to Brooklyn"
+    living: "Brooklyn"
+
+"2022-06-17":
+  - name: "🏯 Sold Postlight to NTT DATA"
+    living: "Brooklyn"
+    doing: "working"
+    association: "NTT DATA"
+
+"2022-12-28":
+  - name: "👩‍⚕️ Cancer diagnosis & treatment"
+
+"2023-07-01":
+  - name: "✈️ Visited Sicily"
+
+"2024-07-17":
+  - name: "🏯 Left NTT DATA"
+    living: "Brooklyn"
+    doing: "sabbatical"
+    association: ""
 
 "2059-09-19":
-  - name: "☠️ Life expectancy expiration date"
-    category: "self"
-    tags: []
+  - name: "☠️ Reach life expectancy"
 
 "2075-09-19":
-  - name: "🥰 My goal is to live 100 healthy years, so I can hug Etta the day after her 63rd birthday"
-    category: "goal"
-    link: ""
-    tags: ["health"]
+  - name: "🥰 When I'm 100 years old, I want to hug T&E at the beach"
+
+colors:
+  - class_name: "brooklyn"
+    element: "border"
+    color_name: "#8eb2d6"
+  - class_name: "san-diego"
+    element: "border"
+    color_name: "#d4b483"
+  - class_name: "north-carolina"
+    element: "border"
+    color_name: "beige"
+  - class_name: "poughkeepsie"
+    element: "border"
+    color_name: "#b1e2ca"
+  - class_name: "toddler"
+    element: "background-color"
+    color_name: "white"
+  - class_name: "student"
+    element: "background-color"
+    color_name: "#f0e3d6"
+  - class_name: "working"
+    element: "background-color"
+    color_name: "#d6d6f0"
+  - class_name: "sabbatical"
+    element: "background-color"
+    color_name: "white"
