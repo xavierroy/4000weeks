@@ -5,7 +5,6 @@ datafile		:	life-in-weeks
 start_date	: 1975-09-19
 end_year		: 2075
 suppress_age: false
-suppress_decades: false
 ---
 
 This is a map of my life, where each week I've been alive is a little box. The box's border color represents where I was living, the fill color what I was doing. On desktop, hover over a box to find out what was going on for me that week.
