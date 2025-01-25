@@ -13,19 +13,19 @@
   - name: "📓 Started elementary school"
     living: "Brooklyn"
     doing: "student"
-    association: "St. Ephrem School"
+    association: "St. E"
 
 "1989-09-01":
   - name: "📚 Started high school"
     living: "Brooklyn"
     doing: "student"
-    association: "Bishop Kearney High School"
+    association: "BKHS"
 
 "1993-09-02":
   - name: "🏫 Left home for college"
     living: "Poughkeepsie"
     doing: "student"
-    association: "Marist College"
+    association: "Marist"
 
 "1995-10-03":
   - name: "💔 Dad died"
@@ -43,7 +43,7 @@
   - name: "📚 Started grad school"
     living: "Brooklyn"
     doing: "student"
-    association: "Brooklyn College"
+    association: "CUNY"
 
 "1999-06-15":
   - name: "🎓 Graduated with masters degree"
@@ -89,8 +89,8 @@
 
 "2009-01-01":
   - name: "👩‍💻 Started freelancing"
-    doing: "working"
-    association: "freelancing"
+    doing: "freelancing"
+    association: ""
 
 "2009-09-01":
   - name: "📈 Started ThinkUp"
@@ -116,8 +116,8 @@
 "2013-09-01":
   - name: "📈 Shut down ThinkUp (exact date TK)"
     living: "San Diego"
-    doing: "working"
-    association: "freelancing"
+    doing: "freelancing"
+    association: ""
 
 "2014-12-15":
   - name: "🗽 Moved back to Brooklyn (exact date TK)"
@@ -184,6 +184,9 @@ colors:
     element: "background-color"
     color_name: "#f0e3d6"
   - class_name: "working"
+    element: "background-color"
+    color_name: "#d6d6f0"
+  - class_name: "freelancing"
     element: "background-color"
     color_name: "#d6d6f0"
   - class_name: "sabbatical"
