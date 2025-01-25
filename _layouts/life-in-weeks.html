@@ -37,8 +37,7 @@ max_width: false
 				{% assign age = year | minus: start_year %}
 		    <div class="birthday {{ living_class }} {{ doing_class }} float-left text-truncate"
 				data-date="{{ this_week_date }}"
-		    	style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;"
-				title="{% if age != 0 %}{% unless page.suppress_age %}Turned {{ age }} in {% endunless %}{{ year }} – {{ doing }}{{ association }}, living in {{ living }}{% endif %} ">
+		    	style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;">
 		      {% unless page.suppress_age %}{% if age != 0 %}🎂 {{ age }} in {% endif %}{% endunless %}{{ year }}
 		    </div>
 
@@ -48,8 +47,9 @@ max_width: false
 			    {% assign end_year_date = this_week_date | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
 
 		    	<div data-date="{{ this_week_date }}" class="week float-left text-center text-truncate {{ living_class }} {{ doing_class }}"
-		    			style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;"
-						title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, living in {{ living }}">
+		    			style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;">
+						<div class="content"></div>
+						<div class="collapsed">{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, living in {{ living }}</div>
 		    		{% for day in (0..6) %}
 					    {% assign day_modifier = 86400 | times: day %}
 		    			{% assign specific_date = this_week_date | date: "%s" | plus: day_modifier | date: "%Y-%m-%d" %}
@@ -86,6 +86,7 @@ max_width: false
 			  if (today < Date.parse($( this ).attr('data-date'))) {
 			  	$( this ).addClass('future-date');
 				$( this ).attr('title', '');
+				$( this ).children().remove();
 			  }
 			});
 			$( ".birthday" ).each(function( index ) {
@@ -95,6 +96,9 @@ max_width: false
 			  }
 			});
 	  })
+        $('.week').on('click', function () {
+            $(this).find('.collapsed').toggle();
+        });
 	});
 </script>
 <style>
