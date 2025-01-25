@@ -36,8 +36,7 @@ max_width: false
 				{% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
 				{% assign age = year | minus: start_year %}
 		    <div class="birthday {{ living_class }} {{ doing_class }} float-left text-truncate"
-				data-date="{{ this_week_date }}"
-		    	style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;">
+				data-date="{{ this_week_date }}">
 		      {% unless page.suppress_age %}{% if age != 0 %}🎂 {{ age }} in {% endif %}{% endunless %}{{ year }}
 		    </div>
 
@@ -46,8 +45,7 @@ max_width: false
 			    {% assign this_week_date = this_year | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
 			    {% assign end_year_date = this_week_date | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
 
-		    	<div data-date="{{ this_week_date }}" class="week float-left text-center text-truncate {{ living_class }} {{ doing_class }}"
-		    			style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;">
+		    	<div data-date="{{ this_week_date }}" class="week float-left text-center text-truncate {{ living_class }} {{ doing_class }}">
 						<div class="content"></div>
 						<div class="collapsed">{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, living in {{ living }}</div>
 		    		{% for day in (0..6) %}

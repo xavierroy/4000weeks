@@ -19,6 +19,15 @@ body {
     background-color: inherit;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 768px) {
+        font-size: 36px;
+    }
+}
+
 h1 a,
 h1 a:hover {
     text-decoration: none;
@@ -38,16 +47,15 @@ a:hover {
     @media only screen and (max-width: 768px) {
         margin: 2%;
     }
-}
-.collapsed {
-    display: none;
-    background-color: inherit;
-}
-h1 {
-    font-weight: bold;
-    font-size: 42px;
-    margin-bottom: 20px;
-    @media only screen and (max-width: 768px) {
-        font-size: 36px;
+    .week,
+    .birthday {
+        height: 2em;
+        max-height: 2em;
+        padding: 2px 5px;
+        margin: 2px;
+    }
+    .collapsed {
+        display: none;
+        background-color: inherit;
     }
 }
