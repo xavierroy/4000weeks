@@ -83,14 +83,12 @@ max_width: false
 			$( ".week" ).each(function( index ) {
 			  if (today < Date.parse($( this ).attr('data-date'))) {
 			  	$( this ).addClass('future-date');
-				$( this ).attr('title', '');
-				$( this ).children().remove();
+				$( this ).children('.collapsed').remove();
 			  }
 			});
 			$( ".birthday" ).each(function( index ) {
 			  if (today < Date.parse($( this ).attr('data-date'))) {
 			  	$( this ).addClass('future-date');
-				$( this ).attr('title', '');
 			  }
 			});
 	  })
