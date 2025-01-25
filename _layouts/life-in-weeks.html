@@ -53,7 +53,7 @@ max_width: false
 		    			{% assign specific_date = this_week_date | date: "%s" | plus: day_modifier | date: "%Y-%m-%d" %}
 		    			{% if specific_date < next_year %}
 							{% for event in data[specific_date] %}
-								<a {% if event.link %}href="{{ event.link }}"{% endif %} title="{{ specific_date | date: "%b %-d, %Y" }}" target="_new" {% if event.desc %}data-toggle="popover" data-placement="auto"{% endif %} title="{{ specific_date }}" data-trigger="hover" data-content="{{ event.desc }}">{{ event.name }}</a>
+								<a title="{{ specific_date | date: "%b %-d, %Y" }}" target="_new" title="{{ specific_date }}" data-trigger="hover" data-content="{{ event.desc }}">{{ event.name }}</a>
 					            {%unless event.living == null %}{% assign living = event.living %}{% endunless %}
 								{%unless event.doing == null %}{% assign doing = event.doing %}{% endunless %}
 							    {% assign living_class = living | replace: " ", "-" | downcase  %}
