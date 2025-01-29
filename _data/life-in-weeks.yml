@@ -1,53 +1,53 @@
 "1975-09-19":
   - name: "🐣 Hello world: I was born this day"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "toddler"
 
 "1980-09-01":
   - name: "🖍️ Started kindergarten"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "student"
     association: "Tiny Tot Schoolhouse"
 
 "1981-09-01":
   - name: "📓 Started elementary school"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "student"
     association: "St. E"
 
 "1989-09-01":
   - name: "📚 Started high school"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "student"
     association: "BKHS"
 
 "1993-09-02":
   - name: "🏫 Left home for college"
-    living: "Poughkeepsie"
+    based: "Poughkeepsie"
     doing: "student"
     association: "Marist"
 
 "1995-10-03":
-  - name: "💔 Dad died"
+  - name: "💔 Lost Dad"
 
 "1997-03-21":
   - name: "💝 First date with T"
 
 "1997-07-01":
   - name: "🛗 Moved home, started at O. Thompson"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "working"
     association: "O. Thompson"
 
 "1997-09-01":
   - name: "📚 Started grad school"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "student"
     association: "CUNY"
 
 "1999-06-15":
-  - name: "🎓 Graduated with masters degree"
-    living: "Brooklyn"
+  - name: "🎓 Graduated with master's degree"
+    based: "Brooklyn"
     doing: "working"
     association: "O. Thompson"
 
@@ -56,7 +56,7 @@
 
 "2000-03-01":
   - name: "⚡️ Started at Bolt"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "working"
     association: "Bolt"
 
@@ -71,19 +71,19 @@
 
 "2003-05-01":
   - name: "🐝 Started at Kinja"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "working"
     association: "Kinja"
 
 "2005-01-30":
   - name: "👩‍✈️ Launched Lifehacker"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "working"
     association: "Lifehacker"
 
 "2005-09-01":
   - name: "☀️ Moved to San Diego"
-    living: "San Diego"
+    based: "San Diego"
     doing: "working"
     association: "Lifehacker"
 
@@ -94,7 +94,7 @@
 
 "2009-09-01":
   - name: "📈 Started ThinkUp"
-    living: "San Diego"
+    based: "San Diego"
     doing: "working"
     association: "ThinkUp"
 
@@ -115,17 +115,17 @@
 
 "2013-09-01":
   - name: "📈 Shut down ThinkUp (exact date TK)"
-    living: "San Diego"
+    based: "San Diego"
     doing: "freelancing"
     association: ""
 
 "2014-12-15":
   - name: "🗽 Moved back to Brooklyn (exact date TK)"
-    living: "Brooklyn"
+    based: "Brooklyn"
 
 "2016-04-16":
   - name: "🏢 Started at Postlight"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "working"
     association: "Postlight"
 
@@ -134,15 +134,15 @@
 
 "2020-03-30":
   - name: "🦆 Relocated to North Carolina"
-    living: "North Carolina"
+    based: "North Carolina"
 
 "2020-09-30":
   - name: "🗽 Went back to Brooklyn"
-    living: "Brooklyn"
+    based: "Brooklyn"
 
 "2022-06-17":
   - name: "🏯 Sold Postlight to NTT DATA"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "working"
     association: "NTT DATA"
 
@@ -154,7 +154,7 @@
 
 "2024-07-17":
   - name: "🏯 Left NTT DATA"
-    living: "Brooklyn"
+    based: "Brooklyn"
     doing: "sabbatical"
     association: ""
 
