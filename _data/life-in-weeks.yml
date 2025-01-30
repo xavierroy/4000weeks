@@ -176,7 +176,7 @@ colors:
       color_name: "beige"
     - class_name: "poughkeepsie"
       element: "border"
-      color_name: "#b1e2ca"
+      color_name: "#25a18e"
     - class_name: "i-was-tiny"
       element: "background-color"
       color_name: "white"
