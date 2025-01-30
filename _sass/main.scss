@@ -6,6 +6,7 @@
     --highlight-color: #f05d2b;
     --future-border: #dee2e6;
     --future-bg-color: #eee;
+    --body-font-size: 18px;
 }
 
 *,
@@ -25,7 +26,7 @@ body {
     text-rendering: optimizeLegibility;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 18px;
+    font-size: var(--body-font-size);
     @media only screen and (max-width: 768px) {
         font-size: 14px;
     }
@@ -75,6 +76,10 @@ a:hover {
         padding: 2px 5px;
         margin: 2px 1px;
     }
+    .btn {
+        --bs-btn-color: var(--text-color);
+        --bs-btn-font-size: var(--body-font-size);
+    }
 }
 
 hr {
@@ -82,7 +87,6 @@ hr {
     border-top: dotted var(--link-color) 1px;
     border-radius: 0;
 }
-
 .custom-tooltip {
     --bs-tooltip-bg: var(--highlight-color);
     --bs-tooltip-color: var(--bs-white);
