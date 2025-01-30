@@ -37,7 +37,8 @@ layout: fullscreen
                     class="btn birthday {{ based_class }} {{ doing_class }} float-left text-truncate"
                     data-date="{{ this_week_date }}"
                     data-bs-toggle="tooltip"
-                    data-bs-placement="top"
+                    data-bs-placement="left"
+                    data-bs-custom-class="custom-tooltip"
                     data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">
             {% unless page.suppress_age %}{% if age != 0 %}🎂 {{ age }} in {% endif %}{% endunless %}{{ year }}
             </button>
@@ -50,7 +51,8 @@ layout: fullscreen
                 class="btn week float-left text-center text-truncate {{ based_class }} {{ doing_class }}"
                 data-date="{{ this_week_date }}"
                 data-bs-toggle="tooltip"
-                data-bs-placement="top"
+                data-bs-placement="left"
+                data-bs-custom-class="custom-tooltip"
                 data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">
                 {% for day in (0..6) %}
                     {% assign day_modifier = 86400 | times: day %}

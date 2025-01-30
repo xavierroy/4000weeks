@@ -1,8 +1,17 @@
+:root {
+    --main-bg-color: #bdcfe1;
+    --text-color: #333;
+    --link-color: #073b4c;
+    --highlight-color: var(--link-color);
+    --future-border: #dee2e6;
+    --future-bg-color: #eee;
+}
+
 *,
 :after,
 :before {
     box-sizing: border-box;
-    background-color: #dce8f2;
+    background-color: var(--main-bg-color);
     color: inherit;
     margin: 0;
     padding: 0;
@@ -21,7 +30,7 @@ body {
     }
     font-style: normal;
     line-height: 1.5;
-    color: #333;
+    color: var(--text-color);
     background-color: inherit;
 }
 
@@ -29,22 +38,31 @@ h1 {
     font-weight: 800;
     font-size: 72px;
     margin-bottom: 20px;
+    color: var(--link-color);
     @media only screen and (max-width: 768px) {
         font-size: 36px;
     }
 }
 
-a,
+a {
+    color: var(--link-color);
+    border-bottom: dotted var(--link-color) 1px;
+    border-radius: 0;
+    text-decoration: none;
+}
+
 a:hover {
-    color: darkslateblue;
-    text-decoration: underline;
+    color: var(--link-color);
+    text-decoration: none;
+    border-bottom: solid var(--link-color) 1px;
+    border-radius: 0;
 }
 
 .life-in-weeks {
     margin: 4% 8%;
     .future-date {
-        background-color: #eee !important;
-        border-color: #dee2e6 !important;
+        background-color: var(--future-bg-color) !important;
+        border-color: var(--future-border) !important;
     }
     @media only screen and (max-width: 768px) {
         margin: 2%;
@@ -60,4 +78,11 @@ a:hover {
 
 hr {
     margin: 5% 0%;
+    border-top: dotted var(--link-color) 1px;
+    border-radius: 0;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--link-color);
+    --bs-tooltip-color: var(--bs-white);
 }
