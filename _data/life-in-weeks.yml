@@ -1,194 +1,197 @@
 "1975-09-19":
-  - name: "🐣 Hello world: I was born this day"
-    based: "Brooklyn"
-    doing: "toddler"
+    - name: "🐣 Hello world: I was born this day"
+      based: "Brooklyn"
+      doing: "I was tiny"
 
 "1980-09-01":
-  - name: "🖍️ Started kindergarten"
-    based: "Brooklyn"
-    doing: "student"
-    association: "Tiny Tot Schoolhouse"
+    - name: "🖍️ Started kindergarten"
+      based: "Brooklyn"
+      doing: "kindergartner"
+      association: "Tiny Tot Schoolhouse"
 
 "1981-09-01":
-  - name: "📓 Started elementary school"
-    based: "Brooklyn"
-    doing: "student"
-    association: "St. E"
+    - name: "📓 Started elementary school"
+      based: "Brooklyn"
+      doing: "student"
+      association: "St. E"
 
 "1989-09-01":
-  - name: "📚 Started high school"
-    based: "Brooklyn"
-    doing: "student"
-    association: "BKHS"
+    - name: "📚 Started high school"
+      based: "Brooklyn"
+      doing: "student"
+      association: "BKHS"
 
 "1993-09-02":
-  - name: "🏫 Left home for college"
-    based: "Poughkeepsie"
-    doing: "student"
-    association: "Marist"
+    - name: "🏫 Left home for college"
+      based: "Poughkeepsie"
+      doing: "student"
+      association: "Marist"
 
 "1995-10-03":
-  - name: "💔 Lost Dad"
+    - name: "💔 Lost Dad"
 
 "1997-03-21":
-  - name: "💝 First date with T"
+    - name: "💝 First date with T"
 
 "1997-07-01":
-  - name: "🛗 Moved home, started at O. Thompson"
-    based: "Brooklyn"
-    doing: "working"
-    association: "O. Thompson"
+    - name: "🛗 Moved home, started at O. Thompson"
+      based: "Brooklyn"
+      doing: "working"
+      association: "O. Thompson"
 
 "1997-09-01":
-  - name: "📚 Started grad school"
-    based: "Brooklyn"
-    doing: "student"
-    association: "CUNY"
+    - name: "📚 Started grad school"
+      based: "Brooklyn"
+      doing: "student"
+      association: "CUNY"
 
 "1999-06-15":
-  - name: "🎓 Graduated with master's degree"
-    based: "Brooklyn"
-    doing: "working"
-    association: "O. Thompson"
+    - name: "🎓 Graduated with master's degree"
+      based: "Brooklyn"
+      doing: "working"
+      association: "O. Thompson"
 
 "2000-01-01":
-  - name: "🏡 Moved in with my sister"
+    - name: "🏡 Moved in with my sister"
 
 "2000-03-01":
-  - name: "⚡️ Started at Bolt"
-    based: "Brooklyn"
-    doing: "working"
-    association: "Bolt"
+    - name: "⚡️ Started at Bolt"
+      based: "Brooklyn"
+      doing: "working"
+      association: "Bolt"
 
 "2001-01-01":
-  - name: "🏡 Moved in with T (exact date TK)"
+    - name: "🏡 Moved in with T (exact date TK)"
 
 "2001-06-02":
-  - name: "💍 Married T"
+    - name: "💍 Married T"
 
 "2001-09-11":
-  - name: "💔 9/11"
+    - name: "💔 9/11"
 
 "2003-05-01":
-  - name: "🐝 Started at Kinja"
-    based: "Brooklyn"
-    doing: "working"
-    association: "Kinja"
+    - name: "🐝 Started at Kinja"
+      based: "Brooklyn"
+      doing: "working"
+      association: "Kinja"
 
 "2005-01-30":
-  - name: "👩‍✈️ Launched Lifehacker"
-    based: "Brooklyn"
-    doing: "working"
-    association: "Lifehacker"
+    - name: "👩‍✈️ Launched Lifehacker"
+      based: "Brooklyn"
+      doing: "working"
+      association: "Lifehacker"
 
 "2005-09-01":
-  - name: "☀️ Moved to San Diego"
-    based: "San Diego"
-    doing: "working"
-    association: "Lifehacker"
+    - name: "☀️ Moved to San Diego"
+      based: "San Diego"
+      doing: "working"
+      association: "Lifehacker"
 
 "2009-01-01":
-  - name: "👩‍💻 Started freelancing"
-    doing: "freelancing"
-    association: ""
+    - name: "👩‍💻 Started freelancing"
+      doing: "freelancing"
+      association: ""
 
 "2009-09-01":
-  - name: "📈 Started ThinkUp"
-    based: "San Diego"
-    doing: "working"
-    association: "ThinkUp"
+    - name: "📈 Started ThinkUp"
+      based: "San Diego"
+      doing: "working"
+      association: "ThinkUp"
 
 "2010-10-01":
-  - name: "✈️ Visited China TK"
+    - name: "✈️ Visited China TK"
 
 "2011-10-01":
-  - name: "✈️ Visited Thailand TK"
+    - name: "✈️ Visited Thailand TK"
 
 "2007-10-01":
-  - name: "✈️ Visited Sicily TK"
+    - name: "✈️ Visited Sicily TK"
 
 "2008-10-01":
-  - name: "✈️ Visited London TK"
+    - name: "✈️ Visited London TK"
 
 "2012-09-18":
-  - name: "🐣 E born"
+    - name: "🐣 E born"
 
 "2013-09-01":
-  - name: "📈 Shut down ThinkUp (exact date TK)"
-    based: "San Diego"
-    doing: "freelancing"
-    association: ""
+    - name: "📈 Shut down ThinkUp (exact date TK)"
+      based: "San Diego"
+      doing: "freelancing"
+      association: ""
 
 "2014-12-15":
-  - name: "🗽 Moved back to Brooklyn (exact date TK)"
-    based: "Brooklyn"
+    - name: "🗽 Moved back to Brooklyn (exact date TK)"
+      based: "Brooklyn"
 
 "2016-04-16":
-  - name: "🏢 Started at Postlight"
-    based: "Brooklyn"
-    doing: "working"
-    association: "Postlight"
+    - name: "🏢 Started at Postlight"
+      based: "Brooklyn"
+      doing: "working"
+      association: "Postlight"
 
 "2020-03-15":
-  - name: "🦠 Covid-19 Pandemic shut down U.S."
+    - name: "🦠 Covid-19 Pandemic shut down U.S."
 
 "2020-03-30":
-  - name: "🦆 Relocated to North Carolina"
-    based: "North Carolina"
+    - name: "🦆 Relocated to North Carolina"
+      based: "North Carolina"
 
 "2020-09-30":
-  - name: "🗽 Went back to Brooklyn"
-    based: "Brooklyn"
+    - name: "🗽 Went back to Brooklyn"
+      based: "Brooklyn"
 
 "2022-06-17":
-  - name: "🏯 Sold Postlight to NTT DATA"
-    based: "Brooklyn"
-    doing: "working"
-    association: "NTT DATA"
+    - name: "🏯 Sold Postlight to NTT DATA"
+      based: "Brooklyn"
+      doing: "working"
+      association: "NTT DATA"
 
 "2022-12-28":
-  - name: "👩‍⚕️ Cancer diagnosis & treatment"
+    - name: "👩‍⚕️ Cancer diagnosis & treatment"
 
 "2023-07-01":
-  - name: "✈️ Visited Sicily"
+    - name: "✈️ Visited Sicily"
 
 "2024-07-17":
-  - name: "🏯 Left NTT DATA"
-    based: "Brooklyn"
-    doing: "sabbatical"
-    association: ""
+    - name: "🏯 Left NTT DATA"
+      based: "Brooklyn"
+      doing: "funemployed"
+      association: ""
 
 "2059-09-19":
-  - name: "☠️ Reach life expectancy"
+    - name: "☠️ Reach life expectancy"
 
 "2075-09-19":
-  - name: "🥰 Hug T&E at the beach"
+    - name: "🥰 Hug T&E at the beach"
 
 colors:
-  - class_name: "brooklyn"
-    element: "border"
-    color_name: "#8eb2d6"
-  - class_name: "san-diego"
-    element: "border"
-    color_name: "#d4b483"
-  - class_name: "north-carolina"
-    element: "border"
-    color_name: "beige"
-  - class_name: "poughkeepsie"
-    element: "border"
-    color_name: "#b1e2ca"
-  - class_name: "toddler"
-    element: "background-color"
-    color_name: "white"
-  - class_name: "student"
-    element: "background-color"
-    color_name: "#f0e3d6"
-  - class_name: "working"
-    element: "background-color"
-    color_name: "#d6d6f0"
-  - class_name: "freelancing"
-    element: "background-color"
-    color_name: "#d6d6f0"
-  - class_name: "sabbatical"
-    element: "background-color"
-    color_name: "white"
+    - class_name: "brooklyn"
+      element: "border"
+      color_name: "#8eb2d6"
+    - class_name: "san-diego"
+      element: "border"
+      color_name: "#d4b483"
+    - class_name: "north-carolina"
+      element: "border"
+      color_name: "beige"
+    - class_name: "poughkeepsie"
+      element: "border"
+      color_name: "#b1e2ca"
+    - class_name: "i-was-tiny"
+      element: "background-color"
+      color_name: "white"
+    - class_name: "kindergartner"
+      element: "background-color"
+      color_name: "#f0e3d6"
+    - class_name: "student"
+      element: "background-color"
+      color_name: "#f0e3d6"
+    - class_name: "working"
+      element: "background-color"
+      color_name: "#d6d6f0"
+    - class_name: "freelancing"
+      element: "background-color"
+      color_name: "#d6d6f0"
+    - class_name: "funemployed"
+      element: "background-color"
+      color_name: "white"

@@ -25,6 +25,9 @@ layout: fullscreen
     {% for event in first_event[1] %}
         {% assign based_class = event.based | replace: " ", "-" | downcase %}
         {% assign doing_class = event.doing | replace: " ", "-" | downcase %}
+        {% assign based = event.based %}
+        {% assign doing = event.doing %}
+        {% assign specific_date = start_date %}
         {% break %}
     {% endfor %}
     <div class="row justify-content-center">
@@ -33,45 +36,54 @@ layout: fullscreen
             {% capture this_year = year %}{{ year }}-{{ start_month }}-{{ start_day }}{% endcapture %}
             {% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
             {% assign age = year | minus: start_year %}
+            {% unless age == 0 %}
             <button type="button"
                     class="btn birthday {{ based_class }} {{ doing_class }} float-left text-truncate"
                     data-date="{{ this_week_date }}"
                     data-bs-toggle="tooltip"
                     data-bs-placement="left"
                     data-bs-custom-class="custom-tooltip"
-                    data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">
-            {% unless page.suppress_age %}{% if age != 0 %}🎂 {{ age }} in {% endif %}{% endunless %}{{ year }}
+                    data-bs-title="{{ year | append: "-" | append: start_month | append: "-" | append: start_day | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">🎂 {{ age }} in {{ year }}
             </button>
+            {% endunless %}
 
-            {% for week in (0..53) %}
+            {% for week in (0..52) %}
                 {% assign week_modifier = 604800 | times: week %}
                 {% assign this_week_date = this_year | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
                 {% assign end_year_date = this_week_date | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
-            <button type="button"
-                class="btn week float-left text-center text-truncate {{ based_class }} {{ doing_class }}"
-                data-date="{{ this_week_date }}"
-                data-bs-toggle="tooltip"
-                data-bs-placement="left"
-                data-bs-custom-class="custom-tooltip"
-                data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">
+                {% unless week == 0 %}
+                <button type="button"
+                    class="btn week float-left text-center text-truncate {{ based_class }} {{ doing_class }}"
+                    data-date="{{ this_week_date }}"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}"></button>
+                {% endunless %}
                 {% for day in (0..6) %}
                     {% assign day_modifier = 86400 | times: day %}
                     {% assign specific_date = this_week_date | date: "%s" | plus: day_modifier | date: "%Y-%m-%d" %}
                     {% if specific_date < next_year %}
                         {% for event in data[specific_date] %}
-                            {{ event.name }}
                             {%unless event.based == null %}{% assign based = event.based %}{% endunless %}
                             {%unless event.doing == null %}{% assign doing = event.doing %}{% endunless %}
                             {% assign based_class = based | replace: " ", "-" | downcase  %}
                             {% assign doing_class = doing | replace: " ", "-" | downcase  %}
                             {%unless event.association == null %}{% assign association = event.association %}
                                 {% unless association == "" %}
-                                    {% assign association = association | prepend: " at " %}{% endunless %}
+                                    {% assign association = association | prepend: " at " %}
                                 {% endunless %}
+                            {% endunless %}
+                        <button type="button"
+                        class="btn week float-left text-center text-truncate {{ based_class }} {{ doing_class }}"
+                        data-date="{{ this_week_date }}"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="left"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">{{ event.name }}</button>
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
-                </button>
             {% endfor %}
         {% endfor %}
         </div>

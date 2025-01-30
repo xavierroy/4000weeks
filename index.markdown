@@ -1,10 +1,9 @@
 ---
-title 			: My Life in Weeks
-layout			: life-in-weeks
-datafile		:	life-in-weeks
+title       : My Life in Weeks
+layout      : life-in-weeks
+datafile    : life-in-weeks
 start_date	: 1975-09-19
-end_year		: 2075
-suppress_age: false
+end_year    : 2075
 ---
 
 👋 Hi, I'm [Gina](https://ginatrapani.org). This is a map of my life, where each week I've been alive is a little box. Hover over or tap a box to find out more about that week.
