@@ -15,87 +15,73 @@ layout: fullscreen
 {% assign year_border_class = "border-secondary" %}
 
 <section class="life-in-weeks">
-	<div class="row justify-content-center">
-		<div class="col-12">
-		{% include header_fullscreen.html %}
+    <div class="row justify-content-center">
+        <div class="col-12">
+        {% include header_fullscreen.html %}
+        {{content}}
+        </div>
+    </div>
+    {% assign first_event = data | first %}
+    {% for event in first_event[1] %}
+        {% assign based_class = event.based | replace: " ", "-" | downcase %}
+        {% assign doing_class = event.doing | replace: " ", "-" | downcase %}
+        {% break %}
+    {% endfor %}
+    <div class="row justify-content-center">
+        <div class="col-12">
+        {% for year in (start_year..end_year) %}
+            {% capture this_year = year %}{{ year }}-{{ start_month }}-{{ start_day }}{% endcapture %}
+            {% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
+            {% assign age = year | minus: start_year %}
+            <button type="button"
+                    class="btn birthday {{ based_class }} {{ doing_class }} float-left text-truncate"
+                    data-date="{{ this_week_date }}"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">
+            {% unless page.suppress_age %}{% if age != 0 %}🎂 {{ age }} in {% endif %}{% endunless %}{{ year }}
+            </button>
 
-		{{content}}
-		</div>
-	</div>
-	{% assign first_event = data | first %}
-	{% for event in first_event[1] %}
-		{% assign based_class = event.based | replace: " ", "-" | downcase %}
-		{% assign doing_class = event.doing | replace: " ", "-" | downcase %}
-		{% break %}
-	{% endfor %}
-	<div class="row justify-content-center">
-		<div class="col-12">
-			{% for year in (start_year..end_year) %}
-				{% capture this_year = year %}{{ year }}-{{ start_month }}-{{ start_day }}{% endcapture %}
-				{% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
-				{% assign age = year | minus: start_year %}
-		    <div class="birthday {{ based_class }} {{ doing_class }} float-left text-truncate"
-				data-date="{{ this_week_date }}">
-		      {% unless page.suppress_age %}{% if age != 0 %}🎂 {{ age }} in {% endif %}{% endunless %}{{ year }}
-		    </div>
-
-		    {% for week in (0..53) %}
-			    {% assign week_modifier = 604800 | times: week %}
-			    {% assign this_week_date = this_year | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
-			    {% assign end_year_date = this_week_date | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
-
-		    	<div data-date="{{ this_week_date }}" class="week float-left text-center text-truncate {{ based_class }} {{ doing_class }}">
-						<div class="content"></div>
-						<div class="collapsed">{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}</div>
-		    		{% for day in (0..6) %}
-					    {% assign day_modifier = 86400 | times: day %}
-		    			{% assign specific_date = this_week_date | date: "%s" | plus: day_modifier | date: "%Y-%m-%d" %}
-		    			{% if specific_date < next_year %}
-							{% for event in data[specific_date] %}
-								<a title="{{ specific_date | date: "%b %-d, %Y" }}" target="_new" title="{{ specific_date }}" data-trigger="hover" data-content="{{ event.desc }}">{{ event.name }}</a>
-					            {%unless event.based == null %}{% assign based = event.based %}{% endunless %}
-								{%unless event.doing == null %}{% assign doing = event.doing %}{% endunless %}
-							    {% assign based_class = based | replace: " ", "-" | downcase  %}
-							    {% assign doing_class = doing | replace: " ", "-" | downcase  %}
-								{%unless event.association == null %}{% assign association = event.association %}
-								    {% unless association == "" %}
-							         {% assign association = association | prepend: " at " %}{% endunless %}
-									{% endunless %}
-							{% endfor %}
-						{% endif %}
-		    		{% endfor %}
-		    	</div>
-		    {% endfor %}
-			{% endfor %}
-		</div>
-	</div>
+            {% for week in (0..53) %}
+                {% assign week_modifier = 604800 | times: week %}
+                {% assign this_week_date = this_year | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
+                {% assign end_year_date = this_week_date | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
+            <button type="button"
+                class="btn week float-left text-center text-truncate {{ based_class }} {{ doing_class }}"
+                data-date="{{ this_week_date }}"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">
+                {% for day in (0..6) %}
+                    {% assign day_modifier = 86400 | times: day %}
+                    {% assign specific_date = this_week_date | date: "%s" | plus: day_modifier | date: "%Y-%m-%d" %}
+                    {% if specific_date < next_year %}
+                        {% for event in data[specific_date] %}
+                            {{ event.name }}
+                            {%unless event.based == null %}{% assign based = event.based %}{% endunless %}
+                            {%unless event.doing == null %}{% assign doing = event.doing %}{% endunless %}
+                            {% assign based_class = based | replace: " ", "-" | downcase  %}
+                            {% assign doing_class = doing | replace: " ", "-" | downcase  %}
+                            {%unless event.association == null %}{% assign association = event.association %}
+                                {% unless association == "" %}
+                                    {% assign association = association | prepend: " at " %}{% endunless %}
+                                {% endunless %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                </button>
+            {% endfor %}
+        {% endfor %}
+        </div>
+    </div>
 </section>
 
-<script>
-	$(document).ready(function () {
-	  $(function () {
-			var today = new Date();
-			$( ".week" ).each(function( index ) {
-			  if (today < Date.parse($( this ).attr('data-date'))) {
-			  	$( this ).addClass('future-date');
-				$( this ).children('.collapsed').remove();
-			  }
-			});
-			$( ".birthday" ).each(function( index ) {
-			  if (today < Date.parse($( this ).attr('data-date'))) {
-			  	$( this ).addClass('future-date');
-			  }
-			});
-	  })
-        $('.week').on('click', function () {
-            $(this).find('.collapsed').toggle();
-        });
-	});
-</script>
 <style>
 .life-in-weeks {
     {% for color in data.colors %}
-    .{{ color.class_name }} {
+    .{{ color.class_name }},
+    .{{ color.class_name }}:active,
+    .{{ color.class_name }}.focus {
         {% if color.element == "border" %}
         border: 2px solid {{ color.color_name }};
         {% endif %}
@@ -106,3 +92,29 @@ layout: fullscreen
     {% endfor %}
 }
 </style>
+
+<script>
+$(document).ready(function () {
+    $(function () {
+        var today = new Date();
+        $( ".week" ).each(function( index ) {
+            if (today < Date.parse($( this ).attr('data-date'))) {
+                $( this ).addClass('future-date');
+                $( this ).attr("data-bs-toggle", null);
+            }
+        });
+        $( ".birthday" ).each(function( index ) {
+            if (today < Date.parse($( this ).attr('data-date'))) {
+                $( this ).addClass('future-date');
+                $( this ).attr("data-bs-toggle", null);
+            }
+        });
+        const tooltipTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="tooltip"]',
+        );
+        const tooltipList = [...tooltipTriggerList].map(
+            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl),
+        );
+    })
+});
+</script>

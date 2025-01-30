@@ -7,10 +7,10 @@ end_year		: 2075
 suppress_age: false
 ---
 
-Hi, I'm [Gina](https://ginatrapani.org). This is a map of my life, where each week I've been alive is a little box.
+👋 Hi, I'm [Gina](https://ginatrapani.org). This is a map of my life, where each week I've been alive is a little box. Hover over or tap a box to find out more about that week.
 
-Each box's border color represents where I was based, the fill color what I was doing. Tap a box to find out more about that week.
+🧠 Based on [Life in Weeks by Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html). Code adapted from [Buster Benson](https://busterbenson.com/life-in-weeks) by [Gina Trapani](https://ginatrapani.org) available on [GitHub](https://github.com/ginatrapani/life-in-weeks).
 
-Concept by [Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html), code copied from [Buster Benson](https://busterbenson.com/life-in-weeks), modified by [Gina Trapani](https://ginatrapani.org). To make one of your own, I recommend [weeksofyour.life](https://www.weeksofyour.life/).
+📌 Note: This life and this map are a work in progress. I'll update it as I go.
 
-Note: This life and this map are a work in progress. I'll update it as I go.
+---
