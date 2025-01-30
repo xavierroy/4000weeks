@@ -21,6 +21,9 @@
       doing: "student"
       association: "BKHS"
 
+"1989-11-23":
+    - name: "🎫 First concert"
+
 "1993-09-02":
     - name: "🏫 Left home for college"
       based: "Poughkeepsie"
@@ -101,6 +104,9 @@
 "2010-10-01":
     - name: "✈️ Visited China TK"
 
+"2011-06-02":
+    - name: "💍 Married 10 years"
+
 "2011-10-01":
     - name: "✈️ Visited Thailand TK"
 
@@ -119,15 +125,39 @@
       doing: "freelancing"
       association: ""
 
+"2013-09-18":
+    - name: "👶 E turned 1"
+
+"2014-09-18":
+    - name: "👶 E turned 2"
+
 "2014-12-15":
     - name: "🗽 Moved back to Brooklyn (exact date TK)"
       based: "Brooklyn"
+
+"2015-09-18":
+    - name: "👶 E turned 3"
 
 "2016-04-16":
     - name: "🏢 Started at Postlight"
       based: "Brooklyn"
       doing: "working"
       association: "Postlight"
+
+"2016-09-18":
+    - name: "👶 E turned 4"
+
+"2017-09-18":
+    - name: "👧 E turned 5"
+
+"2018-09-18":
+    - name: "👧 E turned 6"
+
+"2019-09-18":
+    - name: "👧 E turned 7"
+
+"2020-09-18":
+    - name: "👧 E turned 8"
 
 "2020-03-15":
     - name: "🦠 Covid-19 Pandemic shut down U.S."
@@ -140,11 +170,20 @@
     - name: "🗽 Went back to Brooklyn"
       based: "Brooklyn"
 
+"2021-06-02":
+    - name: "💍 Married 20 years"
+
+"2021-09-18":
+    - name: "👧 E turned 9"
+
 "2022-06-17":
     - name: "🏯 Sold Postlight to NTT DATA"
       based: "Brooklyn"
       doing: "working"
       association: "NTT DATA"
+
+"2022-09-18":
+    - name: "👧 E turned 10"
 
 "2022-12-28":
     - name: "👩‍⚕️ Cancer diagnosis & treatment"
@@ -152,17 +191,41 @@
 "2023-07-01":
     - name: "✈️ Visited Sicily"
 
+"2023-09-18":
+    - name: "👧 E turned 11"
+
 "2024-07-17":
     - name: "🏯 Left NTT DATA"
       based: "Brooklyn"
       doing: "funemployed"
       association: ""
 
+"2024-09-18":
+    - name: "👧 E turned 12"
+
 "2059-09-19":
     - name: "☠️ Reach life expectancy"
 
 "2075-09-19":
     - name: "🥰 Hug T&E at the beach"
+
+# Presidents
+"1981-01-20":
+    - name: "🇺🇸 Reagan became President"
+"1989-01-20":
+    - name: "🇺🇸 Bush 1 became President"
+"1993-01-20":
+    - name: "🇺🇸 Clinton became President"
+"2001-01-20":
+    - name: "🇺🇸 Bush 2 became President"
+"2009-01-20":
+    - name: "🇺🇸 Obama became President"
+"2017-01-20":
+    - name: "🇺🇸 Cheeto became President"
+"2021-01-20":
+    - name: "🇺🇸 Biden became President"
+"2025-01-20":
+    - name: "🇺🇸 Cheeto became President"
 
 colors:
     - class_name: "brooklyn"
