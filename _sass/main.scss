@@ -1,8 +1,9 @@
 :root {
-    --main-bg-color: #bdcfe1;
-    --text-color: #333;
-    --link-color: #073b4c;
-    --highlight-color: var(--link-color);
+    --main-bg-color: #fffaed;
+    --text-color: #3f5c72;
+    --header-text-color: #3f5c72;
+    --link-color: #3f5c72;
+    --highlight-color: #f05d2b;
     --future-border: #dee2e6;
     --future-bg-color: #eee;
 }
@@ -38,7 +39,7 @@ h1 {
     font-weight: 800;
     font-size: 72px;
     margin-bottom: 20px;
-    color: var(--link-color);
+    color: var(--header-text-color);
     @media only screen and (max-width: 768px) {
         font-size: 36px;
     }
@@ -52,9 +53,9 @@ a {
 }
 
 a:hover {
-    color: var(--link-color);
+    color: var(--highlight-color);
     text-decoration: none;
-    border-bottom: solid var(--link-color) 1px;
+    border-bottom: solid var(--highlight-color) 1px;
     border-radius: 0;
 }
 
@@ -83,6 +84,6 @@ hr {
 }
 
 .custom-tooltip {
-    --bs-tooltip-bg: var(--link-color);
+    --bs-tooltip-bg: var(--highlight-color);
     --bs-tooltip-color: var(--bs-white);
 }
