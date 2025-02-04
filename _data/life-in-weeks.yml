@@ -1,33 +1,33 @@
 "1975-09-19":
     - headline: "🐣 Hello world"
-      description: "I was born in Brooklyn, New York, USA, the youngest of 4 by far, a happy accident. Dad came to the hospital in a shirt and tie to meet me for the first time."
+      description: "I was born in Brooklyn, New York, USA, the youngest of 4 by far, a happy accident. Dad came to the hospital in a jacket and tie to meet me for the first time."
       based: "Brooklyn"
       doing: "I was tiny"
 
 "1980-09-01":
-    - headline: "🖍️ Started kindergarten"
-      description: "Miss Mary and Miss Nini at Tiny Tot Schoolhouse were my teachers."
+    - headline: "🖍️ Kindergarten"
+      description: "Went to Tiny Tot Schoolhouse, where Miss Mary and Miss Nini were my teachers."
       based: "Brooklyn"
       doing: "kindergartner"
       association: "Tiny Tot Schoolhouse"
 
 "1981-09-01":
-    - headline: "📓 Started elementary school"
-      description: "Catholic school, uniforms, nuns, mass, and all."
+    - headline: "📓 Elementary school"
+      description: "Went to Catholic school, with uniforms, nuns, mass, and all."
       based: "Brooklyn"
       doing: "student"
       association: "St. E"
 
 "1984-04-01":
-    - headline: "🖥️ Got our first home computer"
+    - headline: "🖥️ First home computer"
       description: "Dad loved gadgets and was ahead of his time when he bought us an IBM PCjr. Wrote my first BASIC programs on that machine, played the Keyboard Adventure easter egg game, Kings Quest and Space Quest, and drew a pixelated Van Halen logo with A."
 
 "1986-10-27":
-    - headline: "⚾️ NY Mets win the World Series!"
-      description: "First NY sports victory I got into."
+    - headline: "⚾️ Mets win"
+      description: "The Mets won the World Series in the first NY sports victory I ever got into."
 
 "1989-09-01":
-    - headline: "📚 Started high school"
+    - headline: "📚 High school"
       description: "All girls Catholic high schoool, where my sister went."
       based: "Brooklyn"
       doing: "student"
@@ -38,27 +38,27 @@
       description: "New Kids on the Block at Madison Square Garden. Whole school won tickets in an NYC radio contest by writing the most index cards of any other school in the 5 boroughs."
 
 "1991-10-01":
-    - headline: "💶 Visited Europe for the first time"
+    - headline: "💶 First Europe trip"
       description: "My first time travelling outside of the US was a school trip to Europe: Italy, France, and England. Begged my parents to let me go on this trip instead of have a sweet sixteen party (blech)."
 
 "1992-09-20":
-    - headline: "🪪 Got my drivers license"
+    - headline: "🪪 Drivers license"
       description: "When I passed my drivers test, parents looked stricken."
 
 "1993-09-02":
-    - headline: "🏫 Left home for college"
+    - headline: "🏫 Left for college"
       based: "Poughkeepsie"
       doing: "student"
       association: "Marist"
       description: "Went to Marist College thanks to a scholarship, a loan, Mom & Dad, and Metro-North."
 
 "1993-09-15":
-    - headline: "🖨️ Started at help desk"
-      description: "Needed money so I took an on-campus job at Marist's computer lab help desk. The lab ran OS/2 and DOS workstations and mainframe terminals. Printers jammed constantly. Earned minimum wage $4.25/hour and learned so much."
+    - headline: "🖨️ Help desk"
+      description: "Started an on-campus job at Marist's computer lab help desk, where I worked all 4 years. The lab ran OS/2 and DOS workstations and mainframe terminals. Printers jammed constantly. Earned minimum wage $4.25/hour and learned so much."
 
 "1994-10-01":
-    - headline: "🌎 Saw my first webpage"
-      description: "In Mosaic on OS/2 in Marist's computer lab around this time."
+    - headline: "🌎 Saw the web"
+      description: "Saw my first webapage in Mosaic, running on on OS/2 in Marist's computer lab around this time."
 
 "1995-10-03":
     - headline: "💔 Lost Dad"
@@ -68,28 +68,32 @@
     - headline: "💝 First date with T"
       description: "Thank goodness she asked."
 
-"1997-06-30":
+"1997-06-15":
     - headline: "🎓 Graduated college"
       description: "Bachelor of Arts in English, Creative Writing"
       doing: "funemployed"
       based: "Brooklyn"
       association: ""
 
+"1997-06-29":
+    - headline: "⛹️‍♀️ NY Liberty"
+      description: "Best graduation gift ever: Inaugural season tickets for the WNBA's New York Liberty at Madison Square Garden."
+
 "1997-07-01":
     - headline: "🏠 Moved home"
 
 "1997-07-01":
-    - headline: "🌅 Went west for first time"
+    - headline: "🌅 Went west"
       description: "Visited Phoenix, Sedona, Yosemite, and San Francisco with Mom & L. This is when I knew I'd move west someday."
 
 "1997-07-15":
-    - headline: "🛗 Started at OT"
-      description: "First professional IT job at the company my Dad and brothers worked. Mostly learned networking and programming Java."
+    - headline: "🛗 First job"
+      description: "First professional IT job at the company where my Dad and brothers worked. Mostly learned networking and programming Java."
       doing: "working"
       association: "O. Thompson"
 
 "1997-09-01":
-    - headline: "📚 Started grad school"
+    - headline: "📚 Grad school"
       description: "A computer science program for which this English major was missing most math prerequisites. Catchup was tough."
       based: "Brooklyn"
       doing: "student"
@@ -107,11 +111,11 @@
       description: "We survived!"
 
 "2000-01-01":
-    - headline: "🏡 Left home for good"
+    - headline: "🏡 Left home"
       description: "Moved into my first shared working-adult apartment."
 
 "2000-03-01":
-    - headline: "⚡️ Started at Bolt"
+    - headline: "⚡️ Bolt"
       description: "First professional web developer job. Learned ASP and SQL here, and got my Java certification."
       based: "Brooklyn"
       doing: "working"
@@ -130,64 +134,60 @@
       description: "Rest in peace, C."
 
 "2001-12-16":
-    - headline: "📸 Got my first digital camera"
+    - headline: "📸 First digital camera"
       description: "It was a Canon Powershot Digital Elph, probabaly 4 megapixels."
 
-"2002-08-15":
-    - headline: "🎧 Got my first iPod"
-      description: "Second gen, FireWire."
-
 "2003-08-14":
-    - headline: "💡 Northeast blackout"
-      description: "Had to walk across the river from Flatiron to Park Slope in sandals. Ouch."
+    - headline: "🕯️ Northeast blackout"
+      description: "With the subways stopped, had to walk home 8 miles across the bridge from the office in sandals. Ouch."
 
 "2003-05-01":
-    - headline: "🐝 Started freelancing"
+    - headline: "🐝 Freelancing"
       based: "Brooklyn"
       doing: "working"
       association: "freelancing"
       description: "Clients included NetAid and The Digital Journalist with Dirck Halstead. Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
 
 "2005-01-30":
-    - headline: "👩‍✈️ Launched Lifehacker"
+    - headline: "👩‍✈️ Lifehacker"
       based: "Brooklyn"
       doing: "working"
       association: "Lifehacker"
       description: "I was the founding editor of Lifehacker, a Gawker Media title, alongside Gawker and Gizmodo."
 
 "2005-08-23":
-    - headline: "🛫 Flew an airplane"
-      description: "First flying lesson in a little four-seater off Cape Cod. What a feeling."
+    - headline: "✈️ Flew an airplane"
+      description: "Took my first flying lesson with D in a little four-seater off Cape Cod. What a feeling."
 
 "2005-09-01":
     - headline: "☀️ Moved to San Diego"
       based: "San Diego"
       doing: "working"
       association: "Lifehacker"
-      description: "Working remotely entirely online gave us the freedom to switch coasts, to T's hometown."
+      description: "Switched coasts, to T's hometown."
 
 "2006-10-10":
-    - headline: "📖 Published my first book"
+    - headline: "📚 Published my book"
       description: "The Lifehacker book was published by Wiley. Over time, it went to 3 editions with a handful of translations, including Italian."
 
 "2007-06-29":
     - headline: "📱 iPhone released"
 
 "2008-02-22":
-    - headline: "✈️ Visited Thailand"
+    - headline: "🇹🇭 Visited Thailand"
       description: "Saw The Beach, rode elephants, sailed in long-tail boats, and ate banh mi, with D&A."
 
 "2008-06-17":
-    - headline: "💍 Legalized our marriage in CA"
+    - headline: "💍 Marriage legalized"
       description: "When California recognized same-sex marriage legally, we got married again on the court steps in San Diego, along with countless other couples."
 
 "2008-09-15":
-    - headline: "📉 Global financial crisis"
+    - headline: "📉 Financial crisis"
       description: "Caused by subprime mortgage meltdown"
 
 "2008-11-04":
-    - headline: "🤬 California bans same-sex marriage"
-      description: "Proposition 8 was a California ballot proposition and a state constitutional amendment intended to ban same-sex marriage; it passed in the November 2008 California state elections. Existing same-sex marriages, including ours, were grandfathered in."
+    - headline: "🤬 Marriage ban"
+      description: "Prop 8 passed in the California state elections, banning same-sex marriage. Existing marriages, including ours, were grandfathered in."
 
 "2009-01-01":
     - headline: "👩‍💻 Left Lifehacker"
@@ -196,7 +196,7 @@
       description: "Departed my full-time editor role of Lifehacker and transitioned to weekly feature writer, and took on other media clients as a freelance writer and podcaster."
 
 "2009-08-01":
-    - headline: "🎙️ Started hosting podcasts"
+    - headline: "🎙️ Started podcasting"
       description: "Launched This Week in Google, a podcast with Leo Laporte and Jeff Jarvis. Later, co-hosted All About Android with Jason Howell, In Beta with Kevin Purdy, and The Postlight Podcast/Catalyst."
 
 "2009-08-20":
@@ -207,24 +207,25 @@
       description: "Pushed the first bit of code for a utility I called Twitalytic, which later became ThinkUp, the company and software I built with Anil."
 
 "2010-01-15":
-    - headline: "🐋 Went on a submarine dive"
+    - headline: "🐋 Submarine dive"
       description: "Got to be one of the first ever civilian bloggers to go out for a dive in a Los Angeles class fast attack Naval submarine."
 
 "2011-06-02":
     - headline: "💍 Married 10 years"
 
 "2011-07-01":
-    - headline: "✈️ Visited China"
+    - headline: "🇨🇳 Visited China"
       description: "Toured Bejing, Shanghai, Guangzhou, Suzhou with T & T."
 
 "2012-09-18":
     - headline: "🐣 E born"
+      description: "At last."
 
 "2013-09-18":
     - headline: "👶 E turned 1"
 
 "2013-12-30":
-    - headline: "🥯 Returned to Brooklyn"
+    - headline: "🥯 Back to Brooklyn"
       based: "Brooklyn"
       description: "A baby brings you closer to family and co-founders like to work in the same city."
 
@@ -232,18 +233,18 @@
     - headline: "👶 E turned 2"
 
 "2015-06-26":
-    - headline: "🏳️‍🌈 Same-sex marriage recognized in all 50 states"
+    - headline: "🏳️‍🌈 Legally married!"
       description: "The Supreme Court of the United States ruled in the case of Obergefell v. Hodges that a fundamental right to marry is guaranteed to same-sex couples by the Fourteenth Amendment, and that states must allow same-sex marriage."
 
 "2015-08-04":
-    - headline: "🇺🇸 Visited the White House for Demo Day"
+    - headline: "🇺🇸 White House visit"
       description: "Launched Makerbase at the White House at its first-ever Demo Day, hosted by President Obama (on his birthday!). We sang Happy Birthday to him in the East Wing."
 
 "2015-09-18":
     - headline: "👶 E turned 3"
 
 "2016-04-16":
-    - headline: "🏢 Started at Postlight"
+    - headline: "🏢 Postlight"
       based: "Brooklyn"
       doing: "working"
       association: "Postlight"
@@ -256,7 +257,7 @@
     - headline: "👶 E turned 4"
 
 "2017-06-15":
-    - headline: "🏢 Became a partner at Postlight"
+    - headline: "🏢 Partner at Postlight"
 
 "2017-09-18":
     - headline: "👧 E turned 5"
@@ -271,28 +272,30 @@
     - headline: "👧 E turned 8"
 
 "2020-03-15":
-    - headline: "🦠 Covid-19 Pandemic shut down U.S."
+    - headline: "🦠 Covid-19"
+      description: "Oh, just a global pandemic."
 
 "2020-03-30":
-    - headline: "🦆 Relocated to North Carolina"
+    - headline: "🦆 North Carolina"
       based: "North Carolina"
       description: "Pandemic NYC got scary fast."
 
 "2020-09-30":
-    - headline: "🥯 Returned to Brooklyn"
+    - headline: "🥯 Back to Brooklyn"
       based: "Brooklyn"
 
 "2021-06-02":
     - headline: "💍 Married 20 years"
 
 "2021-06-15":
-    - headline: "🏢 Became CEO of Postlight"
+    - headline: "🏢 Became CEO"
 
 "2021-09-18":
     - headline: "👧 E turned 9"
 
 "2022-06-17":
-    - headline: "🏯 Sold Postlight to NTT DATA"
+    - headline: "🏯 Sold Postlight"
+      description: "Sold to NTT DATA, the biggest IT services firm you've never heard of, the company that invented the emoji. 😃"
       based: "Brooklyn"
       doing: "working"
       association: "NTT DATA"
@@ -301,11 +304,11 @@
     - headline: "👧 E turned 10"
 
 "2022-12-28":
-    - headline: "👩‍⚕️ Cancer diagnosis & treatment"
+    - headline: "👩‍⚕️ Cancer"
       description: "Well, that was scary."
 
 "2023-07-01":
-    - headline: "✈️ Visited Sicily"
+    - headline: "🇮🇹 Sicily"
       description: "Whole fam-damily spent two weeks not far from Trapani, Sicily."
 
 "2023-09-18":
@@ -321,29 +324,33 @@
 "2024-09-18":
     - headline: "👧 E turned 12"
 
+"2024-10-20":
+    - headline: "🏀 Liberty win!"
+      description: "After 28 years, got to see the NY Liberty win the WNBA championship in person at Barclays Center. WE ALL WE GOT, WE ALL WE NEED."
+
 "2059-09-19":
-    - headline: "☠️ Reach life expectancy"
+    - headline: "☠️ Life expectancy"
 
 "2075-09-19":
-    - headline: "🥰 Centenarian goal: Hug T&E at the beach"
+    - headline: "🥰 Hug T&E at the beach"
 
 # Presidents
 "1981-01-20":
-    - headline: "🇺🇸 Reagan became President"
+    - headline: "🇺🇸 Reagan inaugurated"
 "1989-01-20":
-    - headline: "🇺🇸 GH Bush became President"
+    - headline: "🇺🇸 GH Bush inaugurated"
 "1993-01-20":
-    - headline: "🇺🇸 Clinton became President"
+    - headline: "🇺🇸 Clinton inaugurated"
 "2001-01-20":
-    - headline: "🇺🇸 GW Bush became President"
+    - headline: "🇺🇸 GW Bush inaugurated"
 "2009-01-20":
-    - headline: "🇺🇸 Obama became President"
+    - headline: "🇺🇸 Obama inaugurated"
 "2017-01-20":
-    - headline: "🇺🇸 Cheeto became President"
+    - headline: "🇺🇸 Cheeto inaugurated"
 "2021-01-20":
-    - headline: "🇺🇸 Biden became President"
+    - headline: "🇺🇸 Biden inaugurated"
 "2025-01-20":
-    - headline: "🇺🇸 Cheeto became President"
+    - headline: "🇺🇸 Cheeto inaugurated"
 
 
 colors:
