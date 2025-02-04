@@ -1,231 +1,350 @@
 "1975-09-19":
-    - name: "🐣 Hello world: I was born this day"
+    - headline: "🐣 Hello world"
+      description: "I was born in Brooklyn, New York, USA, the youngest of 4 by far, a happy accident. Dad came to the hospital in a shirt and tie to meet me for the first time."
       based: "Brooklyn"
       doing: "I was tiny"
 
 "1980-09-01":
-    - name: "🖍️ Started kindergarten"
+    - headline: "🖍️ Started kindergarten"
+      description: "Miss Mary and Miss Nini at Tiny Tot Schoolhouse were my teachers."
       based: "Brooklyn"
       doing: "kindergartner"
       association: "Tiny Tot Schoolhouse"
 
 "1981-09-01":
-    - name: "📓 Started elementary school"
+    - headline: "📓 Started elementary school"
+      description: "Catholic school, uniforms, nuns, mass, and all."
       based: "Brooklyn"
       doing: "student"
       association: "St. E"
 
+"1984-04-01":
+    - headline: "🖥️ Got our first home computer"
+      description: "Dad loved gadgets and was ahead of his time when he bought us an IBM PCjr. Wrote my first BASIC programs on that machine, played the Keyboard Adventure easter egg game, Kings Quest and Space Quest, and drew a pixelated Van Halen logo with A."
+
+"1986-10-27":
+    - headline: "⚾️ NY Mets win the World Series!"
+      description: "First NY sports victory I got into."
+
 "1989-09-01":
-    - name: "📚 Started high school"
+    - headline: "📚 Started high school"
+      description: "All girls Catholic high schoool, where my sister went."
       based: "Brooklyn"
       doing: "student"
       association: "BKHS"
 
 "1989-11-23":
-    - name: "🎫 First concert"
+    - headline: "🎫 First concert"
+      description: "New Kids on the Block at Madison Square Garden. Whole school won tickets in an NYC radio contest by writing the most index cards of any other school in the 5 boroughs."
+
+"1991-10-01":
+    - headline: "💶 Visited Europe for the first time"
+      description: "My first time travelling outside of the US was a school trip to Europe: Italy, France, and England. Begged my parents to let me go on this trip instead of have a sweet sixteen party (blech)."
+
+"1992-09-20":
+    - headline: "🪪 Got my drivers license"
+      description: "When I passed my drivers test, parents looked stricken."
 
 "1993-09-02":
-    - name: "🏫 Left home for college"
+    - headline: "🏫 Left home for college"
       based: "Poughkeepsie"
       doing: "student"
       association: "Marist"
+      description: "Went to Marist College thanks to a scholarship, a loan, Mom & Dad, and Metro-North."
+
+"1993-09-15":
+    - headline: "🖨️ Started at help desk"
+      description: "Needed money so I took an on-campus job at Marist's computer lab help desk. The lab ran OS/2 and DOS workstations and mainframe terminals. Printers jammed constantly. Earned minimum wage $4.25/hour and learned so much."
+
+"1994-10-01":
+    - headline: "🌎 Saw my first webpage"
+      description: "In Mosaic on OS/2 in Marist's computer lab around this time."
 
 "1995-10-03":
-    - name: "💔 Lost Dad"
+    - headline: "💔 Lost Dad"
+      description: "Miss you every day."
 
 "1997-03-21":
-    - name: "💝 First date with T"
+    - headline: "💝 First date with T"
+      description: "Thank goodness she asked."
+
+"1997-06-30":
+    - headline: "🎓 Graduated college"
+      description: "Bachelor of Arts in English, Creative Writing"
+      doing: "funemployed"
+      based: "Brooklyn"
+      association: ""
 
 "1997-07-01":
-    - name: "🛗 Moved home, started at O. Thompson"
-      based: "Brooklyn"
+    - headline: "🏠 Moved home"
+
+"1997-07-01":
+    - headline: "🌅 Went west for first time"
+      description: "Visited Phoenix, Sedona, Yosemite, and San Francisco with Mom & L. This is when I knew I'd move west someday."
+
+"1997-07-15":
+    - headline: "🛗 Started at OT"
+      description: "First professional IT job at the company my Dad and brothers worked. Mostly learned networking and programming Java."
       doing: "working"
       association: "O. Thompson"
 
 "1997-09-01":
-    - name: "📚 Started grad school"
+    - headline: "📚 Started grad school"
+      description: "A computer science program for which this English major was missing most math prerequisites. Catchup was tough."
       based: "Brooklyn"
       doing: "student"
       association: "CUNY"
 
 "1999-06-15":
-    - name: "🎓 Graduated with master's degree"
+    - headline: "🎓 Graduated"
+      description: "Master's of Science in Computer Information Systems"
       based: "Brooklyn"
       doing: "working"
       association: "O. Thompson"
 
+"1999-12-31":
+    - headline: "💥 Y2K"
+      description: "We survived!"
+
 "2000-01-01":
-    - name: "🏡 Moved in with my sister"
+    - headline: "🏡 Left home for good"
+      description: "Moved into my first shared working-adult apartment."
 
 "2000-03-01":
-    - name: "⚡️ Started at Bolt"
+    - headline: "⚡️ Started at Bolt"
+      description: "First professional web developer job. Learned ASP and SQL here, and got my Java certification."
       based: "Brooklyn"
       doing: "working"
       association: "Bolt"
 
-"2001-01-01":
-    - name: "🏡 Moved in with T (exact date TK)"
+"2000-09-10":
+    - headline: "🪴 Moved in with T"
+      description: "Rented the garden apartment of a brownstone together."
 
 "2001-06-02":
-    - name: "💍 Married T"
+    - headline: "💍 Married T"
+      description: "We wore matching dresses and Doc Martens. Our families recognized our marriage, the state did not."
 
 "2001-09-11":
-    - name: "💔 9/11"
+    - headline: "💔 9/11"
+      description: "Rest in peace, C."
+
+"2001-12-16":
+    - headline: "📸 Got my first digital camera"
+      description: "It was a Canon Powershot Digital Elph, probabaly 4 megapixels."
+
+"2002-08-15":
+    - headline: "🎧 Got my first iPod"
+      description: "Second gen, FireWire."
+
+"2003-08-14":
+    - headline: "💡 Northeast blackout"
+      description: "Had to walk across the river from Flatiron to Park Slope in sandals. Ouch."
 
 "2003-05-01":
-    - name: "🐝 Started at Kinja"
+    - headline: "🐝 Started freelancing"
       based: "Brooklyn"
       doing: "working"
-      association: "Kinja"
+      association: "freelancing"
+      description: "Clients included NetAid and The Digital Journalist with Dirck Halstead. Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
 
 "2005-01-30":
-    - name: "👩‍✈️ Launched Lifehacker"
+    - headline: "👩‍✈️ Launched Lifehacker"
       based: "Brooklyn"
       doing: "working"
       association: "Lifehacker"
+      description: "I was the founding editor of Lifehacker, a Gawker Media title, alongside Gawker and Gizmodo."
+
+"2005-08-23":
+    - headline: "🛫 Flew an airplane"
+      description: "First flying lesson in a little four-seater off Cape Cod. What a feeling."
 
 "2005-09-01":
-    - name: "☀️ Moved to San Diego"
+    - headline: "☀️ Moved to San Diego"
       based: "San Diego"
       doing: "working"
       association: "Lifehacker"
+      description: "Working remotely entirely online gave us the freedom to switch coasts, to T's hometown."
+
+"2006-10-10":
+    - headline: "📖 Published my first book"
+      description: "The Lifehacker book was published by Wiley. Over time, it went to 3 editions with a handful of translations, including Italian."
+
+"2007-06-29":
+    - headline: "📱 iPhone released"
+
+"2008-02-22":
+    - headline: "✈️ Visited Thailand"
+      description: "Saw The Beach, rode elephants, sailed in long-tail boats, and ate banh mi, with D&A."
+
+"2008-06-17":
+    - headline: "💍 Legalized our marriage in CA"
+      description: "When California recognized same-sex marriage legally, we got married again on the court steps in San Diego, along with countless other couples."
+
+"2008-09-15":
+    - headline: "📉 Global financial crisis"
+      description: "Caused by subprime mortgage meltdown"
+
+"2008-11-04":
+    - headline: "🤬 California bans same-sex marriage"
+      description: "Proposition 8 was a California ballot proposition and a state constitutional amendment intended to ban same-sex marriage; it passed in the November 2008 California state elections. Existing same-sex marriages, including ours, were grandfathered in."
 
 "2009-01-01":
-    - name: "👩‍💻 Started freelancing"
+    - headline: "👩‍💻 Left Lifehacker"
       doing: "freelancing"
       association: ""
+      description: "Departed my full-time editor role of Lifehacker and transitioned to weekly feature writer, and took on other media clients as a freelance writer and podcaster."
 
-"2009-09-01":
-    - name: "📈 Started ThinkUp"
+"2009-08-01":
+    - headline: "🎙️ Started hosting podcasts"
+      description: "Launched This Week in Google, a podcast with Leo Laporte and Jeff Jarvis. Later, co-hosted All About Android with Jason Howell, In Beta with Kevin Purdy, and The Postlight Podcast/Catalyst."
+
+"2009-08-20":
+    - headline: "📈 Started ThinkUp"
       based: "San Diego"
       doing: "working"
       association: "ThinkUp"
+      description: "Pushed the first bit of code for a utility I called Twitalytic, which later became ThinkUp, the company and software I built with Anil."
 
-"2010-10-01":
-    - name: "✈️ Visited China TK"
+"2010-01-15":
+    - headline: "🐋 Went on a submarine dive"
+      description: "Got to be one of the first ever civilian bloggers to go out for a dive in a Los Angeles class fast attack Naval submarine."
 
 "2011-06-02":
-    - name: "💍 Married 10 years"
+    - headline: "💍 Married 10 years"
 
-"2011-10-01":
-    - name: "✈️ Visited Thailand TK"
-
-"2007-10-01":
-    - name: "✈️ Visited Sicily TK"
-
-"2008-10-01":
-    - name: "✈️ Visited London TK"
+"2011-07-01":
+    - headline: "✈️ Visited China"
+      description: "Toured Bejing, Shanghai, Guangzhou, Suzhou with T & T."
 
 "2012-09-18":
-    - name: "🐣 E born"
-
-"2013-09-01":
-    - name: "📈 Shut down ThinkUp (exact date TK)"
-      based: "San Diego"
-      doing: "freelancing"
-      association: ""
+    - headline: "🐣 E born"
 
 "2013-09-18":
-    - name: "👶 E turned 1"
+    - headline: "👶 E turned 1"
+
+"2013-12-30":
+    - headline: "🥯 Returned to Brooklyn"
+      based: "Brooklyn"
+      description: "A baby brings you closer to family and co-founders like to work in the same city."
 
 "2014-09-18":
-    - name: "👶 E turned 2"
+    - headline: "👶 E turned 2"
 
-"2014-12-15":
-    - name: "🗽 Moved back to Brooklyn (exact date TK)"
-      based: "Brooklyn"
+"2015-06-26":
+    - headline: "🏳️‍🌈 Same-sex marriage recognized in all 50 states"
+      description: "The Supreme Court of the United States ruled in the case of Obergefell v. Hodges that a fundamental right to marry is guaranteed to same-sex couples by the Fourteenth Amendment, and that states must allow same-sex marriage."
+
+"2015-08-04":
+    - headline: "🇺🇸 Visited the White House for Demo Day"
+      description: "Launched Makerbase at the White House at its first-ever Demo Day, hosted by President Obama (on his birthday!). We sang Happy Birthday to him in the East Wing."
 
 "2015-09-18":
-    - name: "👶 E turned 3"
+    - headline: "👶 E turned 3"
 
 "2016-04-16":
-    - name: "🏢 Started at Postlight"
+    - headline: "🏢 Started at Postlight"
       based: "Brooklyn"
       doing: "working"
       association: "Postlight"
 
+"2016-06-13":
+    - headline: "📈 Shut down ThinkUp"
+      description: "Refunded our subscribers with lots of sadness and gratitude."
+
 "2016-09-18":
-    - name: "👶 E turned 4"
+    - headline: "👶 E turned 4"
+
+"2017-06-15":
+    - headline: "🏢 Became a partner at Postlight"
 
 "2017-09-18":
-    - name: "👧 E turned 5"
+    - headline: "👧 E turned 5"
 
 "2018-09-18":
-    - name: "👧 E turned 6"
+    - headline: "👧 E turned 6"
 
 "2019-09-18":
-    - name: "👧 E turned 7"
+    - headline: "👧 E turned 7"
 
 "2020-09-18":
-    - name: "👧 E turned 8"
+    - headline: "👧 E turned 8"
 
 "2020-03-15":
-    - name: "🦠 Covid-19 Pandemic shut down U.S."
+    - headline: "🦠 Covid-19 Pandemic shut down U.S."
 
 "2020-03-30":
-    - name: "🦆 Relocated to North Carolina"
+    - headline: "🦆 Relocated to North Carolina"
       based: "North Carolina"
+      description: "Pandemic NYC got scary fast."
 
 "2020-09-30":
-    - name: "🗽 Went back to Brooklyn"
+    - headline: "🥯 Returned to Brooklyn"
       based: "Brooklyn"
 
 "2021-06-02":
-    - name: "💍 Married 20 years"
+    - headline: "💍 Married 20 years"
+
+"2021-06-15":
+    - headline: "🏢 Became CEO of Postlight"
 
 "2021-09-18":
-    - name: "👧 E turned 9"
+    - headline: "👧 E turned 9"
 
 "2022-06-17":
-    - name: "🏯 Sold Postlight to NTT DATA"
+    - headline: "🏯 Sold Postlight to NTT DATA"
       based: "Brooklyn"
       doing: "working"
       association: "NTT DATA"
 
 "2022-09-18":
-    - name: "👧 E turned 10"
+    - headline: "👧 E turned 10"
 
 "2022-12-28":
-    - name: "👩‍⚕️ Cancer diagnosis & treatment"
+    - headline: "👩‍⚕️ Cancer diagnosis & treatment"
+      description: "Well, that was scary."
 
 "2023-07-01":
-    - name: "✈️ Visited Sicily"
+    - headline: "✈️ Visited Sicily"
+      description: "Whole fam-damily spent two weeks not far from Trapani, Sicily."
 
 "2023-09-18":
-    - name: "👧 E turned 11"
+    - headline: "👧 E turned 11"
 
 "2024-07-17":
-    - name: "🏯 Left NTT DATA"
+    - headline: "🏯 Left NTT DATA"
       based: "Brooklyn"
       doing: "funemployed"
       association: ""
+      description: "Time for a break."
 
 "2024-09-18":
-    - name: "👧 E turned 12"
+    - headline: "👧 E turned 12"
 
 "2059-09-19":
-    - name: "☠️ Reach life expectancy"
+    - headline: "☠️ Reach life expectancy"
 
 "2075-09-19":
-    - name: "🥰 Hug T&E at the beach"
+    - headline: "🥰 Centenarian goal: Hug T&E at the beach"
 
 # Presidents
 "1981-01-20":
-    - name: "🇺🇸 Reagan became President"
+    - headline: "🇺🇸 Reagan became President"
 "1989-01-20":
-    - name: "🇺🇸 Bush 1 became President"
+    - headline: "🇺🇸 GH Bush became President"
 "1993-01-20":
-    - name: "🇺🇸 Clinton became President"
+    - headline: "🇺🇸 Clinton became President"
 "2001-01-20":
-    - name: "🇺🇸 Bush 2 became President"
+    - headline: "🇺🇸 GW Bush became President"
 "2009-01-20":
-    - name: "🇺🇸 Obama became President"
+    - headline: "🇺🇸 Obama became President"
 "2017-01-20":
-    - name: "🇺🇸 Cheeto became President"
+    - headline: "🇺🇸 Cheeto became President"
 "2021-01-20":
-    - name: "🇺🇸 Biden became President"
+    - headline: "🇺🇸 Biden became President"
 "2025-01-20":
-    - name: "🇺🇸 Cheeto became President"
+    - headline: "🇺🇸 Cheeto became President"
+
 
 colors:
     - class_name: "brooklyn"

@@ -43,7 +43,7 @@ layout: fullscreen
                 data-bs-toggle="tooltip"
                 data-bs-placement="left"
                 data-bs-custom-class="custom-tooltip"
-                data-bs-title="{{ year | append: "-" | append: start_month | append: "-" | append: start_day | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">🎂 {{ age }} in {{ year }}</button>
+                data-bs-title="{{ year | append: "-" | append: start_month | append: "-" | append: start_day | date: "%b %-d, %Y" }}  – Turned  {{ age }} year{% unless age==1 %}s{% endunless %} old">🎂 {{ age }} in {{ year }}</button>
             {% endunless %}
             {% for week in (0..52) %}
                 {% assign week_modifier = 604800 | times: week %}
@@ -78,7 +78,7 @@ layout: fullscreen
                 data-bs-toggle="tooltip"
                 data-bs-placement="left"
                 data-bs-custom-class="custom-tooltip"
-                data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} – {{ doing }}{{ association }}, based in {{ based }}">{{ event.name }}</button>
+                data-bs-title="{{ specific_date | date: "%b %-d, %Y" }} - {{ event.description }}{% unless event.description %}{{ doing }}{{ association }}, based in {{ based }}{% endunless %}">{{ event.headline }}</button>
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
@@ -86,6 +86,7 @@ layout: fullscreen
         {% endfor %}
         </div>
     </div>
+    <blockquote>How you regard your past influences how your future unfolds. You did what you needed to do at the time with what you had to work with. Thank goodness! Now you wake up knowing more. – Danielle LaPorte</blockquote>
 </section>
 
 <style>
