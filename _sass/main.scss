@@ -20,7 +20,6 @@
     color: inherit;
     margin: 0;
     padding: 0;
-    border-radius: 5px;
     scroll-padding-top: 70px;
     @media only screen and (max-width: 768px) {
         scroll-padding-top: 62px;
@@ -67,7 +66,6 @@ h1 a:hover {
 a {
     color: var(--link-color);
     border-bottom: dotted var(--link-color) 1px;
-    border-radius: 0;
     text-decoration: none;
 }
 
@@ -75,11 +73,11 @@ a:hover {
     color: var(--highlight-color);
     text-decoration: none;
     border-bottom: solid var(--highlight-color) 1px;
-    border-radius: 0;
 }
 
 .life-in-weeks {
-    margin: 0 20%;
+    border-radius: 5px;
+    margin: 0 20% 40% 20%;
     .future-date {
         background-color: var(--future-bg-color) !important;
         border-color: var(--future-border) !important;
@@ -109,15 +107,12 @@ a:hover {
     }
     li a {
         color: var(--link-color);
-        border-bottom: solid var(--link-color) 1px;
-        border-radius: 0;
         text-decoration: none;
     }
     li a:hover {
         color: var(--highlight-color);
         text-decoration: none;
-        border-bottom: solid var(--highlight-color) 1px;
-        border-radius: 0;
+        border: none;
     }
     @keyframes fadeIn {
         from {
@@ -135,14 +130,21 @@ a:hover {
         display: none;
         opacity: 0;
         animation: fadeIn 0.5s ease-out forwards;
+        .nav-pills {
+            --bs-nav-pills-border-radius: 0;
+            --bs-nav-pills-link-active-bg: var(--main-bg-color);
+            --bs-nav-link-padding-x: 0.5rem;
+            @media only screen and (max-width: 768px) {
+                --bs-nav-link-padding-x: 0.35rem;
+            }
+            --bs-nav-link-padding-y: 0;
+            --bs-nav-link-color: var(--highlight-color);
+            --bs-nav-pills-link-active-color: var(--highlight-color);
+            border-bottom: solid var(--highlight-color) 1px;
+        }
     }
 }
 
-hr {
-    margin: 2% 0%;
-    border-top: dotted var(--link-color) 1px;
-    border-radius: 0;
-}
 .custom-tooltip {
     --bs-tooltip-bg: var(--highlight-color);
     --bs-tooltip-color: var(--bs-white);
