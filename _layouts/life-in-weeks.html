@@ -39,7 +39,8 @@ layout: fullscreen
             {% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
             {% assign age = year | minus: start_year %}
             {% unless age == 0 %}
-                {% if age | modulo: 10 == 0 %}
+                {% assign decade_diff = age | modulo: 10 %}
+                {% if  decade_diff == 0 %}
             <a id="{{ age }}"></a>
                 {% endif %}
             <button type="button"
