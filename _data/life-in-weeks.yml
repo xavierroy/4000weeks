@@ -106,6 +106,10 @@
       doing: "working"
       association: "O. Thompson"
 
+"1999-10-15":
+    - headline: "🛩️ Skydove, engaged"
+      description: "T proposed and then we jumped out of an airplane. Not sure which was scarier."
+
 "1999-12-31":
     - headline: "💥 Y2K"
       description: "We survived!"
@@ -147,6 +151,10 @@
       doing: "working"
       association: "freelancing"
       description: "Left Bolt to try my hand at contract work, at NetAid and later The Digital Journalist with Dirck Halstead (of first Lewinsky portrait fame). Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
+
+"2004-09-20":
+    - headline: "🚁 Helicopter flight"
+      description: "Celebrated my birthday in a helicopter above NYC."
 
 "2005-01-30":
     - headline: "👩‍✈️ Lifehacker"
@@ -211,7 +219,7 @@
 
 "2011-06-15":
     - headline: "₿ Got my first Bitcoin"
-      description: "Went to a talk by a fellow nerd on some newfangled digital currency at a conference and handed Bitcoins out at the end to anyone who was curious."
+      description: "Went to a talk by a fellow nerd about some newfangled digital currency at a conference and he handed Bitcoins out at the end to anyone who was curious."
 
 "2011-07-01":
     - headline: "🇨🇳 Visited China"
@@ -263,6 +271,14 @@
 "2017-09-18":
     - headline: "👧 E turned 5"
 
+"2018-03-21":
+    - headline: "🤩 Gillian tweeted me"
+      description: "Gillian Anderson replied thank you to a fangirl tweet from me. Printed, framed, and hung on my wall."
+
+"2018-07-26":
+    - headline: "🪂 Went paragliding"
+      description: "Off the coast in San Diego, spectacular."
+
 "2018-09-18":
     - headline: "👧 E turned 6"
 
@@ -274,7 +290,7 @@
 
 "2020-03-15":
     - headline: "🦠 Covid-19"
-      description: "Oh, just a global pandemic."
+      description: "Just a global pandemic."
 
 "2020-03-30":
     - headline: "🦆 Escaped to NC"
@@ -307,7 +323,7 @@
 
 "2022-12-28":
     - headline: "👩‍⚕️ Cancer"
-      description: "Grateful to MSK for the successful treatment of a very scary diagnosis."
+      description: "Grateful to MSK for the successful treatment of a scary diagnosis."
 
 "2023-07-01":
     - headline: "🇮🇹 Sicily"
@@ -327,7 +343,7 @@
     - headline: "👧 E turned 12"
 
 "2024-10-20":
-    - headline: "🏀 Liberty win!"
+    - headline: "🏀 Liberty won!"
       description: "Got to see the NY Liberty win their first WNBA championship in person at Barclays Center. WE ALL WE GOT, WE ALL WE NEED."
 
 "2059-09-19":
