@@ -21,6 +21,10 @@
     margin: 0;
     padding: 0;
     border-radius: 5px;
+    scroll-padding-top: 70px;
+    @media only screen and (max-width: 768px) {
+        scroll-padding-top: 62px;
+    }
 }
 
 body {
@@ -42,11 +46,22 @@ body {
 h1 {
     font-weight: 800;
     font-size: var(--header-font-size-desktop);
-    margin-bottom: 20px;
+    margin: 0;
     color: var(--header-text-color);
     @media only screen and (max-width: 768px) {
         font-size: var(--header-font-size-mobile);
     }
+    transition: all 0.25s;
+}
+
+h1.tiny {
+    font-size: var(--header-font-size-mobile);
+    transition: all 0.25s;
+}
+
+h1 a,
+h1 a:hover {
+    border: none;
 }
 
 a {
@@ -64,7 +79,7 @@ a:hover {
 }
 
 .life-in-weeks {
-    margin: 4% 20%;
+    margin: 0 20%;
     .future-date {
         background-color: var(--future-bg-color) !important;
         border-color: var(--future-border) !important;
@@ -84,10 +99,31 @@ a:hover {
         margin-top: 50px;
     }
     @media only screen and (max-width: 768px) {
-        margin: 2%;
+        margin: 0 2%;
         .btn {
             --bs-btn-font-size: var(--body-font-size-mobile);
         }
+    }
+    li {
+        list-style-type: none;
+    }
+    li a {
+        color: var(--link-color);
+        border-bottom: solid var(--link-color) 1px;
+        border-radius: 0;
+        text-decoration: none;
+    }
+    li a:hover {
+        color: var(--highlight-color);
+        text-decoration: none;
+        border-bottom: solid var(--highlight-color) 1px;
+        border-radius: 0;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 0;
+        margin-bottom: 2em;
+        display: none;
+        transition: all 0.25s;
     }
 }
 

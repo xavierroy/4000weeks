@@ -15,9 +15,9 @@ layout: fullscreen
 {% assign year_border_class = "border-secondary" %}
 
 <section class="life-in-weeks">
-    <div class="row justify-content-center">
+    {% include header_fullscreen.html %}
+    <div class="row justify-content-center mt-3">
         <div class="col-12">
-        {% include header_fullscreen.html %}
         {{content}}
         </div>
     </div>
@@ -32,18 +32,21 @@ layout: fullscreen
     {% endfor %}
     {% assign events_in_row = 0 %}
     {% assign empty_weeks_in_row = 0 %}
-    <div class="row">
-        <div class="col-12 d-flex justify-content-between">
+    <div class="row mt-3">
+        <div class="col-12 d-flex justify-content-between" id="0">
         {% for year in (start_year..end_year) %}
             {% capture this_year = year %}{{ year }}-{{ start_month }}-{{ start_day }}{% endcapture %}
             {% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
             {% assign age = year | minus: start_year %}
             {% unless age == 0 %}
+                {% if age | modulo: 10 == 0 %}
+            <a id="{{ age }}"></a>
+                {% endif %}
             <button type="button"
                 class="btn birthday {{ based_class }} {{ doing_class }} text-nowrap"
                 data-date="{{ this_week_date }}"
                 data-bs-toggle="tooltip"
-                data-bs-placement="left"
+                data-bs-placement="bottom"
                 data-bs-custom-class="custom-tooltip"
                 data-bs-title="{{ year | append: "-" | append: start_month | append: "-" | append: start_day | date: "%b %-d, %Y" }}  – Turned  {{ age }} year{% unless age==1 %}s{% endunless %} old">🎂 {{ age }} in {{ year }}</button>
                 {% assign events_in_row = events_in_row | plus: 1 %}
@@ -128,7 +131,6 @@ layout: fullscreen
         {% endfor %}
         </div>
     </div>
-    <blockquote>How you regard your past influences how your future unfolds. You did what you needed to do at the time with what you had to work with. Thank goodness! Now you wake up knowing more. – Danielle LaPorte</blockquote>
 </section>
 
 <style>
@@ -171,5 +173,9 @@ $(document).ready(function () {
             (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl),
         );
     })
+    $(window).on("scroll touchmove", function () {
+        $("h1").toggleClass("tiny", $(document).scrollTop() > 0);
+        $(".navbar").toggleClass("d-block", $(document).scrollTop() > 200);
+    });
 });
 </script>

@@ -11,6 +11,6 @@ end_year    : 2075
 
 📌 Read more about [Life in Weeks by Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html). I adapted [the code that generated this page](https://github.com/ginatrapani/life-in-weeks) from [Buster Benson](https://busterbenson.com/life-in-weeks).
 
-🛣️ This life and this map are a work in progress. I'll update it as I go.
+💭 "How you regard your past influences how your future unfolds. You did what you needed to do at the time with what you had to work with. Thank goodness! Now you wake up knowing more." – Danielle LaPorte
 
----
+🛣️ This life and this map are a work in progress. I'll update it as I go.
