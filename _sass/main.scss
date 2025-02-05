@@ -1,8 +1,8 @@
 :root {
-    --main-bg-color: #fffaed;
+    --main-bg-color: #fff7e9;
     --text-color: #3f5c72;
-    --header-text-color: #3f5c72;
-    --link-color: #3f5c72;
+    --header-text-color: var(--text-color);
+    --link-color: var(--text-color);
     --highlight-color: #f05d2b;
     --future-border: #dee2e6;
     --future-bg-color: #eee;

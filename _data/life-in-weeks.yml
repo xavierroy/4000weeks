@@ -8,14 +8,14 @@
     - headline: "🖍️ Kindergarten"
       description: "Went to Tiny Tot Schoolhouse, where Miss Mary and Miss Nini were my teachers."
       based: "Brooklyn"
-      doing: "kindergartner"
+      doing: "Kindergartner"
       association: "Tiny Tot Schoolhouse"
 
 "1981-09-01":
     - headline: "📓 Elementary school"
       description: "Went to Catholic school, with uniforms, nuns, mass, and all."
       based: "Brooklyn"
-      doing: "student"
+      doing: "Student"
       association: "St. E"
 
 "1984-04-01":
@@ -26,7 +26,7 @@
     - headline: "📚 High school"
       description: "All girls Catholic high schoool, where my sister went."
       based: "Brooklyn"
-      doing: "student"
+      doing: "High school student"
       association: "BKHS"
 
 "1989-11-23":
@@ -44,7 +44,7 @@
 "1993-09-02":
     - headline: "🏫 Left for college"
       based: "Poughkeepsie"
-      doing: "student"
+      doing: "College student"
       association: "Marist"
       description: "Went to Marist College thanks to a scholarship, a loan, Mom & Dad, and Metro-North."
 
@@ -61,7 +61,7 @@
       description: "Miss you every day."
 
 "1996-10-01":
-    - headline: "🌎 Making webpages"
+    - headline: "🌎 Made first websites"
       description: "By now I was making my own webpages in earnest, spending long nights in the lab office, a room of my own with a computer and a door."
 
 "1997-03-21":
@@ -71,7 +71,7 @@
 "1997-06-15":
     - headline: "🎓 Graduated college"
       description: "Bachelor of Arts in English, Creative Writing"
-      doing: "funemployed"
+      doing: "Funemployed"
       based: "Brooklyn"
       association: ""
 
@@ -87,23 +87,23 @@
       description: "First time to the left coast. Visited Phoenix, Sedona, Yosemite, and San Francisco with Mom & L. This is when I knew I'd move west someday."
 
 "1997-07-15":
-    - headline: "🛗 First job"
+    - headline: "🛗 Elevator company"
       description: "First professional IT job at the company where Dad and my brothers worked. Mostly learned networking and programming Java."
-      doing: "working"
+      doing: "Working"
       association: "O. Thompson"
 
 "1997-09-01":
     - headline: "📚 Grad school"
       description: "A computer science program for which this English major was missing most math prerequisites. Catchup was tough."
       based: "Brooklyn"
-      doing: "student"
+      doing: "Student"
       association: "CUNY"
 
 "1999-06-15":
     - headline: "🎓 Graduated"
       description: "Master's of Science in Computer Information Systems"
       based: "Brooklyn"
-      doing: "working"
+      doing: "Working"
       association: "O. Thompson"
 
 "1999-10-15":
@@ -120,9 +120,9 @@
 
 "2000-03-01":
     - headline: "⚡️ Bolt"
-      description: "First professional web developer job. Learned ASP and SQL here, got my Java certification, but most importantly, made a lifelong friend."
+      description: "First professional web developer job. Learned ASP, SQL, and PHP here but most importantly, met a lifelong friend."
       based: "Brooklyn"
-      doing: "working"
+      doing: "Working"
       association: "Bolt"
 
 "2000-09-10":
@@ -137,9 +137,13 @@
     - headline: "💔 9/11"
       description: "Rest in peace, C."
 
+"2001-12-01":
+    - headline: "👩‍💻 First blog"
+      description: "Making a personal blog combined my love of writing and webdev in a magical way that set me on fire. I published and tinkered and redesigned obsessively. At first I used Blogger. Later, I built my own custom blogging system. Got to be part of the rich, awesome early-days NYC blogging scene and meet some of the greats who I'd go on to work with later."
+
 "2001-12-16":
     - headline: "📸 First digital camera"
-      description: "It was a Canon Powershot Digital Elph, maybe 3MP."
+      description: "It was a Canon Powershot Digital Elph, maybe 3MP. I photographed everything all the time."
 
 "2003-08-14":
     - headline: "🕯️ Northeast blackout"
@@ -148,9 +152,9 @@
 "2003-05-01":
     - headline: "🐝 Freelancing"
       based: "Brooklyn"
-      doing: "working"
-      association: "freelancing"
-      description: "Left Bolt to try my hand at contract work, at NetAid and later The Digital Journalist with Dirck Halstead (of first Lewinsky portrait fame). Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
+      doing: "Freelancing"
+      association: ""
+      description: "Left Bolt to try my hand at contract work, at NetAid and later The Digital Journalist with Dirck Halstead. Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
 
 "2004-09-20":
     - headline: "🚁 Helicopter flight"
@@ -159,9 +163,9 @@
 "2005-01-30":
     - headline: "👩‍✈️ Lifehacker"
       based: "Brooklyn"
-      doing: "working"
+      doing: "Working"
       association: "Lifehacker"
-      description: "Started Lifehacker at Gawker with Nick and Choire coaching me on how to be a blogger."
+      description: "Started Lifehacker at Gawker with Nick and Choire coaching me on how to evolve from a personal blogger to a working media blogger."
 
 "2005-08-23":
     - headline: "✈️ Flew an airplane"
@@ -170,7 +174,7 @@
 "2005-09-01":
     - headline: "☀️ Moved to San Diego"
       based: "San Diego"
-      doing: "working"
+      doing: "Working"
       association: "Lifehacker"
       description: "Switched coasts, to T's hometown."
 
@@ -189,13 +193,17 @@
     - headline: "💍 Marriage legalized"
       description: "When California recognized same-sex marriage legally, we got married again on the court steps in San Diego, along with countless other couples."
 
+"2008-10-18":
+    - headline: "🚴‍♂️ First triathlon"
+      description: "San Diego super-sprint with T."
+
 "2008-11-04":
     - headline: "🤬 Marriage ban"
       description: "Prop 8 passed in the California state elections, banning same-sex marriage. Existing marriages, including ours, were grandfathered in."
 
 "2009-01-01":
     - headline: "👩‍💻 Left Lifehacker"
-      doing: "freelancing"
+      doing: "Freelancing"
       association: ""
       description: "Handed over the editor-in-chief reigns to Adam, transitioned to weekly feature writer, and took on other media clients."
 
@@ -206,7 +214,7 @@
 "2009-08-20":
     - headline: "📈 Started ThinkUp"
       based: "San Diego"
-      doing: "working"
+      doing: "Working"
       association: "ThinkUp"
       description: "Pushed the first bit of code for a utility I called Twitalytic, which later became ThinkUp, the company and open source software I built with Anil."
 
@@ -218,7 +226,7 @@
     - headline: "💍 Married 10 years"
 
 "2011-06-15":
-    - headline: "₿ Got my first Bitcoin"
+    - headline: "₿ First Bitcoin"
       description: "Went to a talk by a fellow nerd about some newfangled digital currency at a conference and he handed Bitcoins out at the end to anyone who was curious."
 
 "2011-07-01":
@@ -254,7 +262,7 @@
 "2016-04-16":
     - headline: "🏢 Started at Postlight"
       based: "Brooklyn"
-      doing: "working"
+      doing: "Working"
       association: "Postlight"
       description: "An agency? Why not?"
 
@@ -295,7 +303,7 @@
 "2020-03-30":
     - headline: "🦆 Escaped to NC"
       based: "North Carolina"
-      description: "Pandemic NYC wasn't fun."
+      description: "Hunkered in the suburbs. Pandemic NYC wasn't good."
 
 "2020-09-30":
     - headline: "🥯 Back to Brooklyn"
@@ -315,7 +323,7 @@
     - headline: "🏯 Sold Postlight"
       description: "Sold to NTT DATA, the biggest IT services firm you've never heard of, the company that invented the emoji. 😃"
       based: "Brooklyn"
-      doing: "working"
+      doing: "Working"
       association: "NTT DATA"
 
 "2022-09-18":
@@ -335,7 +343,7 @@
 "2024-07-17":
     - headline: "🏯 Left NTT DATA"
       based: "Brooklyn"
-      doing: "funemployed"
+      doing: "Funemployed"
       association: ""
       description: "Time for a break."
 
@@ -377,25 +385,31 @@ colors:
       color_name: "#8eb2d6"
     - class_name: "san-diego"
       element: "border"
-      color_name: "#f69828"
+      color_name: "#FCC737"
     - class_name: "north-carolina"
       element: "border"
-      color_name: "#fed321"
+      color_name: "#118B50"
     - class_name: "poughkeepsie"
       element: "border"
-      color_name: "#25a18e"
+      color_name: "#469046"
     - class_name: "i-was-tiny"
       element: "background-color"
       color_name: "white"
     - class_name: "kindergartner"
       element: "background-color"
-      color_name: "#f0e3d6"
+      color_name: "#FFF6DA"
     - class_name: "student"
       element: "background-color"
-      color_name: "#f0e3d6"
+      color_name: "#E8F9FF"
+    - class_name: "high-school-student"
+      element: "background-color"
+      color_name: "#C9E9D2"
+    - class_name: "college-student"
+      element: "background-color"
+      color_name: "#FFE3E3"
     - class_name: "working"
       element: "background-color"
-      color_name: "#d6d6f0"
+      color_name: "#F8E7F6"
     - class_name: "freelancing"
       element: "background-color"
       color_name: "#d6d6f0"
