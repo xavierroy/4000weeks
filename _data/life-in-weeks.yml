@@ -1,6 +1,6 @@
 "1975-09-19":
-    - headline: "🐣 Hello world"
-      description: "I was born in Brooklyn, New York, USA, the youngest of 4 by far, a happy accident. Dad came to the hospital in a jacket and tie to meet me for the first time."
+    - headline: "🐣 I was born"
+      description: "I entered the world at around 9am in Brooklyn, New York, USA, the youngest of 4 by far, a happy accident. Dad came to the hospital in a jacket and tie to meet me for the first time."
       based: "Brooklyn"
       doing: "I was tiny"
 
@@ -22,10 +22,6 @@
     - headline: "🖥️ First home computer"
       description: "Dad loved gadgets and was ahead of his time when he bought us an IBM PCjr. Wrote my first BASIC programs on that machine, played the Keyboard Adventure easter egg game, Kings Quest and Space Quest, and drew a pixelated Van Halen logo with A."
 
-"1986-10-27":
-    - headline: "⚾️ Mets win"
-      description: "The Mets won the World Series in the first NY sports victory I ever got into."
-
 "1989-09-01":
     - headline: "📚 High school"
       description: "All girls Catholic high schoool, where my sister went."
@@ -43,7 +39,7 @@
 
 "1992-09-20":
     - headline: "🪪 Drivers license"
-      description: "When I passed my drivers test, parents looked stricken."
+      description: "The day I passed my drivers test, my parents looked stricken."
 
 "1993-09-02":
     - headline: "🏫 Left for college"
@@ -54,19 +50,23 @@
 
 "1993-09-15":
     - headline: "🖨️ Help desk"
-      description: "Started an on-campus job at Marist's computer lab help desk, where I worked all 4 years. The lab ran OS/2 and DOS workstations and mainframe terminals. Printers jammed constantly. Earned minimum wage $4.25/hour and learned so much."
+      description: "Started an on-campus job at Marist's computer lab help desk, where I worked all 4 years. The lab ran mainframe terminals, OS/2 and DOS workstations. Printers jammed constantly. Earned minimum wage, $4.25/hour, and learned so much."
 
 "1994-10-01":
-    - headline: "🌎 Saw the web"
-      description: "Saw my first webapage in Mosaic, running on on OS/2 in Marist's computer lab around this time."
+    - headline: "🌎 Saw my first webpage"
+      description: "A coworker in the computer lab showed me the Mosaic browser running on OS/2 around this time. Huge lightbulb moment."
 
 "1995-10-03":
     - headline: "💔 Lost Dad"
       description: "Miss you every day."
 
+"1996-10-01":
+    - headline: "🌎 Making webpages"
+      description: "By now I was making my own webpages in earnest, spending long nights in the lab office, a room of my own with a computer and a door."
+
 "1997-03-21":
     - headline: "💝 First date with T"
-      description: "Thank goodness she asked."
+      description: "She asked, thank goodness."
 
 "1997-06-15":
     - headline: "🎓 Graduated college"
@@ -76,19 +76,19 @@
       association: ""
 
 "1997-06-29":
-    - headline: "⛹️‍♀️ NY Liberty"
-      description: "Best graduation gift ever: Inaugural season tickets for the WNBA's New York Liberty at Madison Square Garden."
+    - headline: "⛹️‍♀️ Let's go Liberty"
+      description: "Best graduation gift ever from L: Inaugural season tickets for the WNBA's New York Liberty at Madison Square Garden."
 
 "1997-07-01":
     - headline: "🏠 Moved home"
 
 "1997-07-01":
     - headline: "🌅 Went west"
-      description: "Visited Phoenix, Sedona, Yosemite, and San Francisco with Mom & L. This is when I knew I'd move west someday."
+      description: "First time to the left coast. Visited Phoenix, Sedona, Yosemite, and San Francisco with Mom & L. This is when I knew I'd move west someday."
 
 "1997-07-15":
     - headline: "🛗 First job"
-      description: "First professional IT job at the company where my Dad and brothers worked. Mostly learned networking and programming Java."
+      description: "First professional IT job at the company where Dad and my brothers worked. Mostly learned networking and programming Java."
       doing: "working"
       association: "O. Thompson"
 
@@ -112,11 +112,11 @@
 
 "2000-01-01":
     - headline: "🏡 Left home"
-      description: "Moved into my first shared working-adult apartment."
+      description: "Moved into my first working-adult apartment."
 
 "2000-03-01":
     - headline: "⚡️ Bolt"
-      description: "First professional web developer job. Learned ASP and SQL here, and got my Java certification."
+      description: "First professional web developer job. Learned ASP and SQL here, got my Java certification, but most importantly, made a lifelong friend."
       based: "Brooklyn"
       doing: "working"
       association: "Bolt"
@@ -127,7 +127,7 @@
 
 "2001-06-02":
     - headline: "💍 Married T"
-      description: "We wore matching dresses and Doc Martens. Our families recognized our marriage, the state did not."
+      description: "We wore matching dresses and Doc Martens. Our families recognized our marriage, the government did not."
 
 "2001-09-11":
     - headline: "💔 9/11"
@@ -135,25 +135,25 @@
 
 "2001-12-16":
     - headline: "📸 First digital camera"
-      description: "It was a Canon Powershot Digital Elph, probabaly 4 megapixels."
+      description: "It was a Canon Powershot Digital Elph, maybe 3MP."
 
 "2003-08-14":
     - headline: "🕯️ Northeast blackout"
-      description: "With the subways stopped, had to walk home 8 miles across the bridge from the office in sandals. Ouch."
+      description: "With the subways ground to a halt, walked home 8 miles across the bridge with N from the office in sandals. Ouch."
 
 "2003-05-01":
     - headline: "🐝 Freelancing"
       based: "Brooklyn"
       doing: "working"
       association: "freelancing"
-      description: "Clients included NetAid and The Digital Journalist with Dirck Halstead. Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
+      description: "Left Bolt to try my hand at contract work, at NetAid and later The Digital Journalist with Dirck Halstead (of first Lewinsky portrait fame). Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
 
 "2005-01-30":
     - headline: "👩‍✈️ Lifehacker"
       based: "Brooklyn"
       doing: "working"
       association: "Lifehacker"
-      description: "I was the founding editor of Lifehacker, a Gawker Media title, alongside Gawker and Gizmodo."
+      description: "Started Lifehacker at Gawker with Nick and Choire coaching me on how to be a blogger."
 
 "2005-08-23":
     - headline: "✈️ Flew an airplane"
@@ -181,10 +181,6 @@
     - headline: "💍 Marriage legalized"
       description: "When California recognized same-sex marriage legally, we got married again on the court steps in San Diego, along with countless other couples."
 
-"2008-09-15":
-    - headline: "📉 Financial crisis"
-      description: "Caused by subprime mortgage meltdown"
-
 "2008-11-04":
     - headline: "🤬 Marriage ban"
       description: "Prop 8 passed in the California state elections, banning same-sex marriage. Existing marriages, including ours, were grandfathered in."
@@ -193,7 +189,7 @@
     - headline: "👩‍💻 Left Lifehacker"
       doing: "freelancing"
       association: ""
-      description: "Departed my full-time editor role of Lifehacker and transitioned to weekly feature writer, and took on other media clients as a freelance writer and podcaster."
+      description: "Handed over the editor-in-chief reigns to Adam, transitioned to weekly feature writer, and took on other media clients."
 
 "2009-08-01":
     - headline: "🎙️ Started podcasting"
@@ -204,14 +200,18 @@
       based: "San Diego"
       doing: "working"
       association: "ThinkUp"
-      description: "Pushed the first bit of code for a utility I called Twitalytic, which later became ThinkUp, the company and software I built with Anil."
+      description: "Pushed the first bit of code for a utility I called Twitalytic, which later became ThinkUp, the company and open source software I built with Anil."
 
 "2010-01-15":
     - headline: "🐋 Submarine dive"
-      description: "Got to be one of the first ever civilian bloggers to go out for a dive in a Los Angeles class fast attack Naval submarine."
+      description: "Got to be one of the first ever civilian bloggers to go out for a dive in a Los Angeles class fast attack Naval submarine out of San Diego."
 
 "2011-06-02":
     - headline: "💍 Married 10 years"
+
+"2011-06-15":
+    - headline: "₿ Got my first Bitcoin"
+      description: "Went to a talk by a fellow nerd on some newfangled digital currency at a conference and handed Bitcoins out at the end to anyone who was curious."
 
 "2011-07-01":
     - headline: "🇨🇳 Visited China"
@@ -227,7 +227,7 @@
 "2013-12-30":
     - headline: "🥯 Back to Brooklyn"
       based: "Brooklyn"
-      description: "A baby brings you closer to family and co-founders like to work in the same city."
+      description: "A baby brings you closer to family. Co-founders like to work in the same city."
 
 "2014-09-18":
     - headline: "👶 E turned 2"
@@ -244,10 +244,11 @@
     - headline: "👶 E turned 3"
 
 "2016-04-16":
-    - headline: "🏢 Postlight"
+    - headline: "🏢 Started at Postlight"
       based: "Brooklyn"
       doing: "working"
       association: "Postlight"
+      description: "An agency? Why not?"
 
 "2016-06-13":
     - headline: "📈 Shut down ThinkUp"
@@ -276,13 +277,14 @@
       description: "Oh, just a global pandemic."
 
 "2020-03-30":
-    - headline: "🦆 North Carolina"
+    - headline: "🦆 Escaped to NC"
       based: "North Carolina"
-      description: "Pandemic NYC got scary fast."
+      description: "Pandemic NYC wasn't fun."
 
 "2020-09-30":
     - headline: "🥯 Back to Brooklyn"
       based: "Brooklyn"
+      description: "No place like home."
 
 "2021-06-02":
     - headline: "💍 Married 20 years"
@@ -305,7 +307,7 @@
 
 "2022-12-28":
     - headline: "👩‍⚕️ Cancer"
-      description: "Well, that was scary."
+      description: "Grateful to MSK for the successful treatment of a very scary diagnosis."
 
 "2023-07-01":
     - headline: "🇮🇹 Sicily"
@@ -326,7 +328,7 @@
 
 "2024-10-20":
     - headline: "🏀 Liberty win!"
-      description: "After 28 years, got to see the NY Liberty win the WNBA championship in person at Barclays Center. WE ALL WE GOT, WE ALL WE NEED."
+      description: "Got to see the NY Liberty win their first WNBA championship in person at Barclays Center. WE ALL WE GOT, WE ALL WE NEED."
 
 "2059-09-19":
     - headline: "☠️ Life expectancy"
