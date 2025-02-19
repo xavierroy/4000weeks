@@ -166,8 +166,16 @@ There are three main loops in this page, each nested inside the other: Years, We
                             {{ $buttonClass := printf "btn week %s %s text-nowrap text-left" ($.Store.Get "basedClass") ($.Store.Get "doingClass") }}
                             {{ $.Store.Set "buttonClass" $buttonClass }}
                             {{ $.Store.Set "buttonDataDate" $specDate }}
-                            {{ with .description }}
-                                {{ $.Store.Set "buttonDataBSTitle" (printf "%s – %s" (dateFormat "Jan 2, 2006" $specDate ) . ) }}
+                            {{ if ne .description nil }}
+                                {{ $.Store.Set "buttonDataBSTitle" (printf "%s – %s" (dateFormat "Jan 2, 2006" $specDate ) .description ) }}
+                            {{ else }}
+                                {{ $.Store.Set "buttonDataBSTitle" (printf "%s – %s%s%s, based in %s"
+                                    (dateFormat "Jan 2, 2006" $specDate)
+                                    ($.Store.Get "doing")
+                                    (cond (ne ($.Store.Get "association") "") " at " "")
+                                    ($.Store.Get "association")
+                                    ($.Store.Get "based"))
+                                }}
                             {{ end }}
                             {{ $buttonLabel := .headline }}
                             {{ $.Store.Set "buttonLabel" $buttonLabel }}
